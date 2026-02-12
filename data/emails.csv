@@ -1,1396 +1,751 @@
-sender,recipient,time,subject
-user5@company.com,user12@company.com,2023-01-01 17:47:00,Confidential
-user16@company.com,user15@company.com,2023-01-01 08:05:00,Request
-user8@company.com,user16@company.com,2023-01-01 09:30:00,Invoice
-user6@company.com,user7@company.com,2023-01-01 07:38:00,Project Update
-user6@company.com,user11@company.com,2023-01-01 08:34:00,Confidential
-user6@company.com,user3@company.com,2023-01-01 17:48:00,Project Update
-user9@company.com,user5@company.com,2023-01-01 14:22:00,Meeting
-user7@company.com,user2@company.com,2023-01-01 17:34:00,Meeting
-user15@company.com,user2@company.com,2023-01-01 17:51:00,Request
-user4@company.com,user14@company.com,2023-01-01 18:19:00,Confidential
-user2@company.com,user1@company.com,2023-01-01 07:49:00,Confidential
-user7@company.com,user9@company.com,2023-01-01 12:58:00,Meeting
-user7@company.com,user3@company.com,2023-01-01 07:26:00,Project Update
-user1@company.com,user12@company.com,2023-01-01 10:43:00,Project Update
-user8@company.com,user4@company.com,2023-01-01 19:53:00,Meeting
-user6@company.com,user2@company.com,2023-01-01 13:32:00,Project Update
-user11@company.com,user12@company.com,2023-01-01 15:40:00,Meeting
-user20@company.com,user7@company.com,2023-01-01 15:25:00,Confidential
-user4@company.com,user9@company.com,2023-01-01 10:06:00,Invoice
-user11@company.com,user6@company.com,2023-01-01 07:25:00,Invoice
-user1@company.com,user14@company.com,2023-01-01 10:29:00,Meeting
-user3@company.com,user10@company.com,2023-01-01 17:39:00,Invoice
-user2@company.com,user4@company.com,2023-01-01 10:26:00,Invoice
-user20@company.com,user16@company.com,2023-01-01 08:45:00,Request
-user19@company.com,user6@company.com,2023-01-01 11:06:00,Request
-user11@company.com,user14@company.com,2023-01-01 17:59:00,Meeting
-user11@company.com,user6@company.com,2023-01-01 17:48:00,Invoice
-user16@company.com,user3@company.com,2023-01-01 12:01:00,Request
-user19@company.com,user15@company.com,2023-01-01 13:32:00,Meeting
-user17@company.com,user20@company.com,2023-01-01 18:00:00,Meeting
-user1@company.com,user5@company.com,2023-01-01 11:15:00,Confidential
-user8@company.com,user3@company.com,2023-01-01 07:08:00,Invoice
-user16@company.com,user10@company.com,2023-01-01 10:09:00,Confidential
-user2@company.com,user9@company.com,2023-01-02 18:38:00,Confidential
-user11@company.com,user5@company.com,2023-01-02 11:20:00,Project Update
-user17@company.com,user14@company.com,2023-01-02 17:52:00,Invoice
-user1@company.com,user9@company.com,2023-01-02 18:21:00,Invoice
-user8@company.com,user7@company.com,2023-01-02 15:03:00,Meeting
-user8@company.com,user14@company.com,2023-01-02 15:20:00,Meeting
-user15@company.com,user1@company.com,2023-01-02 08:55:00,Confidential
-user3@company.com,user8@company.com,2023-01-02 07:40:00,Meeting
-user7@company.com,user5@company.com,2023-01-02 08:11:00,Request
-user18@company.com,user7@company.com,2023-01-02 10:32:00,Project Update
-user14@company.com,user16@company.com,2023-01-02 11:10:00,Meeting
-user8@company.com,user15@company.com,2023-01-02 09:38:00,Meeting
-user10@company.com,user11@company.com,2023-01-02 16:28:00,Meeting
-user9@company.com,user17@company.com,2023-01-02 08:23:00,Confidential
-user13@company.com,user6@company.com,2023-01-02 14:28:00,Confidential
-user17@company.com,user14@company.com,2023-01-02 19:09:00,Confidential
-user1@company.com,user14@company.com,2023-01-02 13:54:00,Project Update
-user10@company.com,user19@company.com,2023-01-02 09:35:00,Meeting
-user9@company.com,user14@company.com,2023-01-02 14:19:00,Confidential
-user10@company.com,user14@company.com,2023-01-02 15:38:00,Confidential
-user3@company.com,user12@company.com,2023-01-02 09:45:00,Confidential
-user7@company.com,user5@company.com,2023-01-02 10:00:00,Project Update
-user17@company.com,user12@company.com,2023-01-02 14:25:00,Confidential
-user13@company.com,user12@company.com,2023-01-02 13:31:00,Invoice
-user19@company.com,user3@company.com,2023-01-02 13:56:00,Project Update
-user4@company.com,user14@company.com,2023-01-02 16:10:00,Meeting
-user14@company.com,user9@company.com,2023-01-02 19:58:00,Invoice
-user17@company.com,user16@company.com,2023-01-02 17:44:00,Invoice
-user2@company.com,user14@company.com,2023-01-02 13:47:00,Meeting
-user8@company.com,user17@company.com,2023-01-02 07:58:00,Invoice
-user1@company.com,user6@company.com,2023-01-02 11:38:00,Confidential
-user5@company.com,user10@company.com,2023-01-02 10:38:00,Request
-user6@company.com,user1@company.com,2023-01-02 08:49:00,Project Update
-user13@company.com,user14@company.com,2023-01-02 18:37:00,Project Update
-user17@company.com,user7@company.com,2023-01-02 13:10:00,Confidential
-user9@company.com,user11@company.com,2023-01-02 15:34:00,Confidential
-user10@company.com,user15@company.com,2023-01-03 19:56:00,Project Update
-user4@company.com,user20@company.com,2023-01-03 19:51:00,Invoice
-user5@company.com,user10@company.com,2023-01-03 18:13:00,Confidential
-user10@company.com,user1@company.com,2023-01-03 09:52:00,Confidential
-user1@company.com,user5@company.com,2023-01-03 08:49:00,Confidential
-user17@company.com,user14@company.com,2023-01-03 17:18:00,Confidential
-user6@company.com,user7@company.com,2023-01-03 12:11:00,Meeting
-user7@company.com,user17@company.com,2023-01-03 09:32:00,Project Update
-user15@company.com,user20@company.com,2023-01-03 10:11:00,Meeting
-user2@company.com,user7@company.com,2023-01-03 19:48:00,Meeting
-user9@company.com,user15@company.com,2023-01-03 14:40:00,Request
-user4@company.com,user7@company.com,2023-01-03 08:18:00,Project Update
-user13@company.com,user4@company.com,2023-01-03 11:04:00,Invoice
-user1@company.com,user20@company.com,2023-01-03 10:30:00,Confidential
-user4@company.com,user1@company.com,2023-01-03 07:17:00,Project Update
-user19@company.com,user2@company.com,2023-01-03 08:13:00,Request
-user1@company.com,user14@company.com,2023-01-03 16:33:00,Invoice
-user16@company.com,user17@company.com,2023-01-03 19:21:00,Request
-user14@company.com,user11@company.com,2023-01-03 12:43:00,Invoice
-user11@company.com,user8@company.com,2023-01-03 12:42:00,Confidential
-user13@company.com,user2@company.com,2023-01-03 12:55:00,Invoice
-user4@company.com,user1@company.com,2023-01-03 14:55:00,Confidential
-user5@company.com,user1@company.com,2023-01-03 16:07:00,Request
-user9@company.com,user8@company.com,2023-01-03 12:28:00,Request
-user16@company.com,user18@company.com,2023-01-03 13:42:00,Meeting
-user1@company.com,user12@company.com,2023-01-03 07:40:00,Invoice
-user2@company.com,user12@company.com,2023-01-03 17:28:00,Meeting
-user20@company.com,user16@company.com,2023-01-03 13:47:00,Request
-user3@company.com,user13@company.com,2023-01-03 13:59:00,Confidential
-user4@company.com,user14@company.com,2023-01-03 11:38:00,Meeting
-user5@company.com,user18@company.com,2023-01-03 16:50:00,Request
-user2@company.com,user6@company.com,2023-01-03 14:50:00,Project Update
-user10@company.com,user19@company.com,2023-01-03 14:10:00,Confidential
-user4@company.com,user17@company.com,2023-01-03 17:34:00,Meeting
-user8@company.com,user7@company.com,2023-01-03 09:48:00,Project Update
-user4@company.com,user15@company.com,2023-01-03 18:01:00,Meeting
-user11@company.com,user14@company.com,2023-01-03 19:17:00,Meeting
-user9@company.com,user17@company.com,2023-01-03 17:07:00,Meeting
-user18@company.com,user16@company.com,2023-01-03 08:50:00,Invoice
-user8@company.com,user20@company.com,2023-01-03 19:59:00,Request
-user3@company.com,user12@company.com,2023-01-03 13:58:00,Confidential
-user18@company.com,user14@company.com,2023-01-03 19:14:00,Meeting
-user9@company.com,user4@company.com,2023-01-03 11:05:00,Project Update
-user3@company.com,user12@company.com,2023-01-03 18:37:00,Meeting
-user4@company.com,user20@company.com,2023-01-03 12:08:00,Invoice
-user13@company.com,user20@company.com,2023-01-03 18:00:00,Invoice
-user2@company.com,user20@company.com,2023-01-03 15:12:00,Confidential
-user14@company.com,user11@company.com,2023-01-03 19:23:00,Meeting
-user20@company.com,user19@company.com,2023-01-04 10:06:00,Confidential
-user1@company.com,user19@company.com,2023-01-04 14:20:00,Meeting
-user10@company.com,user8@company.com,2023-01-04 14:43:00,Confidential
-user5@company.com,user11@company.com,2023-01-04 09:47:00,Project Update
-user20@company.com,user11@company.com,2023-01-04 11:32:00,Project Update
-user9@company.com,user20@company.com,2023-01-04 14:40:00,Meeting
-user16@company.com,user10@company.com,2023-01-04 18:24:00,Project Update
-user11@company.com,user5@company.com,2023-01-04 18:13:00,Meeting
-user2@company.com,user7@company.com,2023-01-04 14:46:00,Confidential
-user10@company.com,user6@company.com,2023-01-04 07:35:00,Confidential
-user11@company.com,user15@company.com,2023-01-04 17:30:00,Invoice
-user13@company.com,user14@company.com,2023-01-04 08:33:00,Invoice
-user10@company.com,user7@company.com,2023-01-04 18:54:00,Request
-user13@company.com,user4@company.com,2023-01-04 09:20:00,Request
-user2@company.com,user11@company.com,2023-01-04 14:41:00,Meeting
-user19@company.com,user5@company.com,2023-01-04 14:44:00,Confidential
-user10@company.com,user5@company.com,2023-01-04 10:13:00,Meeting
-user1@company.com,user13@company.com,2023-01-04 18:54:00,Request
-user4@company.com,user6@company.com,2023-01-04 13:27:00,Meeting
-user2@company.com,user5@company.com,2023-01-04 12:30:00,Meeting
-user2@company.com,user5@company.com,2023-01-04 15:41:00,Invoice
-user19@company.com,user14@company.com,2023-01-04 09:40:00,Confidential
-user8@company.com,user2@company.com,2023-01-04 08:15:00,Confidential
-user16@company.com,user10@company.com,2023-01-04 18:38:00,Meeting
-user13@company.com,user3@company.com,2023-01-04 19:29:00,Confidential
-user9@company.com,user16@company.com,2023-01-04 12:00:00,Project Update
-user4@company.com,user3@company.com,2023-01-04 08:31:00,Request
-user8@company.com,user1@company.com,2023-01-04 16:36:00,Request
-user16@company.com,user9@company.com,2023-01-04 18:47:00,Project Update
-user19@company.com,user6@company.com,2023-01-04 13:30:00,Confidential
-user10@company.com,user20@company.com,2023-01-04 09:06:00,Invoice
-user3@company.com,user19@company.com,2023-01-04 09:25:00,Project Update
-user13@company.com,user19@company.com,2023-01-04 15:50:00,Request
-user16@company.com,user3@company.com,2023-01-04 15:53:00,Request
-user18@company.com,user4@company.com,2023-01-04 19:48:00,Meeting
-user4@company.com,user7@company.com,2023-01-04 16:44:00,Meeting
-user1@company.com,user19@company.com,2023-01-04 14:51:00,Invoice
-user4@company.com,user2@company.com,2023-01-04 09:36:00,Meeting
-user6@company.com,user3@company.com,2023-01-04 15:16:00,Project Update
-user3@company.com,user5@company.com,2023-01-04 15:19:00,Invoice
-user18@company.com,user6@company.com,2023-01-04 13:42:00,Project Update
-user8@company.com,user11@company.com,2023-01-04 07:33:00,Invoice
-user18@company.com,user15@company.com,2023-01-04 09:36:00,Confidential
-user11@company.com,user18@company.com,2023-01-04 12:38:00,Request
-user17@company.com,user7@company.com,2023-01-04 18:06:00,Project Update
-user8@company.com,user2@company.com,2023-01-04 10:09:00,Invoice
-user7@company.com,user5@company.com,2023-01-05 16:35:00,Meeting
-user19@company.com,user12@company.com,2023-01-05 11:08:00,Request
-user14@company.com,user3@company.com,2023-01-05 15:16:00,Invoice
-user13@company.com,user6@company.com,2023-01-05 13:29:00,Project Update
-user9@company.com,user15@company.com,2023-01-05 18:09:00,Request
-user7@company.com,user3@company.com,2023-01-05 17:46:00,Invoice
-user7@company.com,user13@company.com,2023-01-05 16:42:00,Request
-user20@company.com,user6@company.com,2023-01-05 13:52:00,Meeting
-user11@company.com,user15@company.com,2023-01-05 13:01:00,Request
-user8@company.com,user3@company.com,2023-01-05 11:07:00,Request
-user4@company.com,user19@company.com,2023-01-05 13:04:00,Invoice
-user3@company.com,user13@company.com,2023-01-05 12:49:00,Invoice
-user5@company.com,user9@company.com,2023-01-05 11:00:00,Project Update
-user13@company.com,user8@company.com,2023-01-05 13:06:00,Project Update
-user6@company.com,user18@company.com,2023-01-05 18:56:00,Invoice
-user19@company.com,user16@company.com,2023-01-05 08:33:00,Invoice
-user19@company.com,user10@company.com,2023-01-05 15:17:00,Request
-user4@company.com,user2@company.com,2023-01-05 09:20:00,Confidential
-user6@company.com,user13@company.com,2023-01-05 19:47:00,Request
-user18@company.com,user13@company.com,2023-01-05 14:37:00,Meeting
-user9@company.com,user1@company.com,2023-01-05 17:32:00,Meeting
-user5@company.com,user6@company.com,2023-01-05 13:36:00,Invoice
-user2@company.com,user13@company.com,2023-01-05 18:49:00,Meeting
-user20@company.com,user14@company.com,2023-01-05 18:29:00,Meeting
-user15@company.com,user12@company.com,2023-01-05 19:29:00,Request
-user10@company.com,user9@company.com,2023-01-05 13:33:00,Meeting
-user10@company.com,user3@company.com,2023-01-05 11:26:00,Invoice
-user3@company.com,user4@company.com,2023-01-05 08:46:00,Meeting
-user3@company.com,user7@company.com,2023-01-05 16:03:00,Project Update
-user10@company.com,user19@company.com,2023-01-05 14:51:00,Project Update
-user14@company.com,user18@company.com,2023-01-05 18:08:00,Confidential
-user16@company.com,user18@company.com,2023-01-05 17:43:00,Request
-user4@company.com,user14@company.com,2023-01-05 07:39:00,Meeting
-user1@company.com,user15@company.com,2023-01-05 18:34:00,Invoice
-user8@company.com,user18@company.com,2023-01-05 17:38:00,Project Update
-user20@company.com,user15@company.com,2023-01-05 09:43:00,Request
-user8@company.com,user6@company.com,2023-01-05 08:23:00,Meeting
-user17@company.com,user12@company.com,2023-01-05 07:27:00,Confidential
-user13@company.com,user6@company.com,2023-01-05 12:07:00,Invoice
-user8@company.com,user19@company.com,2023-01-05 19:54:00,Project Update
-user10@company.com,user11@company.com,2023-01-05 14:18:00,Invoice
-user7@company.com,user1@company.com,2023-01-05 18:40:00,Request
-user13@company.com,user7@company.com,2023-01-05 11:59:00,Request
-user2@company.com,user16@company.com,2023-01-05 16:54:00,Confidential
-user2@company.com,user13@company.com,2023-01-05 07:39:00,Confidential
-user11@company.com,user10@company.com,2023-01-05 12:06:00,Project Update
-user12@company.com,user6@company.com,2023-01-05 13:22:00,Project Update
-user4@company.com,user15@company.com,2023-01-05 14:12:00,Project Update
-user17@company.com,user18@company.com,2023-01-05 09:26:00,Project Update
-user16@company.com,user1@company.com,2023-01-05 09:49:00,Invoice
-user8@company.com,user17@company.com,2023-01-05 13:23:00,Invoice
-user12@company.com,user15@company.com,2023-01-05 09:34:00,Invoice
-user4@company.com,user16@company.com,2023-01-05 17:53:00,Confidential
-user6@company.com,user5@company.com,2023-01-05 12:47:00,Confidential
-user1@company.com,user13@company.com,2023-01-05 18:12:00,Project Update
-user7@company.com,user11@company.com,2023-01-05 07:08:00,Confidential
-user14@company.com,user11@company.com,2023-01-05 07:10:00,Meeting
-user16@company.com,user9@company.com,2023-01-06 08:26:00,Confidential
-user18@company.com,user16@company.com,2023-01-06 19:43:00,Meeting
-user11@company.com,user14@company.com,2023-01-06 15:46:00,Confidential
-user5@company.com,user4@company.com,2023-01-06 08:50:00,Project Update
-user5@company.com,user6@company.com,2023-01-06 12:32:00,Project Update
-user8@company.com,user2@company.com,2023-01-06 17:53:00,Invoice
-user14@company.com,user1@company.com,2023-01-06 13:30:00,Invoice
-user10@company.com,user17@company.com,2023-01-06 08:48:00,Confidential
-user8@company.com,user5@company.com,2023-01-06 18:32:00,Meeting
-user8@company.com,user10@company.com,2023-01-06 19:07:00,Invoice
-user8@company.com,user15@company.com,2023-01-06 10:30:00,Project Update
-user17@company.com,user6@company.com,2023-01-06 10:54:00,Request
-user5@company.com,user9@company.com,2023-01-06 08:08:00,Confidential
-user2@company.com,user10@company.com,2023-01-06 10:59:00,Meeting
-user14@company.com,user1@company.com,2023-01-06 16:12:00,Project Update
-user2@company.com,user14@company.com,2023-01-06 13:33:00,Invoice
-user8@company.com,user9@company.com,2023-01-06 12:27:00,Confidential
-user2@company.com,user18@company.com,2023-01-06 13:41:00,Project Update
-user10@company.com,user4@company.com,2023-01-06 11:23:00,Invoice
-user12@company.com,user15@company.com,2023-01-06 10:20:00,Project Update
-user6@company.com,user2@company.com,2023-01-06 07:03:00,Invoice
-user7@company.com,user11@company.com,2023-01-06 14:17:00,Request
-user4@company.com,user15@company.com,2023-01-06 09:16:00,Confidential
-user12@company.com,user11@company.com,2023-01-06 11:07:00,Project Update
-user1@company.com,user19@company.com,2023-01-06 19:55:00,Meeting
-user11@company.com,user13@company.com,2023-01-06 18:51:00,Invoice
-user19@company.com,user17@company.com,2023-01-06 16:23:00,Meeting
-user9@company.com,user7@company.com,2023-01-06 16:24:00,Project Update
-user4@company.com,user6@company.com,2023-01-06 17:47:00,Request
-user4@company.com,user2@company.com,2023-01-06 16:58:00,Meeting
-user7@company.com,user16@company.com,2023-01-06 08:04:00,Request
-user20@company.com,user11@company.com,2023-01-06 11:46:00,Confidential
-user7@company.com,user19@company.com,2023-01-06 18:09:00,Project Update
-user5@company.com,user8@company.com,2023-01-06 13:35:00,Invoice
-user18@company.com,user12@company.com,2023-01-06 12:28:00,Project Update
-user14@company.com,user3@company.com,2023-01-06 14:26:00,Request
-user17@company.com,user1@company.com,2023-01-06 09:38:00,Invoice
-user5@company.com,user11@company.com,2023-01-06 07:36:00,Project Update
-user7@company.com,user14@company.com,2023-01-06 14:43:00,Request
-user17@company.com,user3@company.com,2023-01-06 09:28:00,Request
-user13@company.com,user19@company.com,2023-01-06 19:24:00,Confidential
-user20@company.com,user9@company.com,2023-01-06 10:11:00,Project Update
-user6@company.com,user20@company.com,2023-01-06 10:37:00,Project Update
-user17@company.com,user15@company.com,2023-01-06 15:45:00,Request
-user9@company.com,user11@company.com,2023-01-06 10:18:00,Invoice
-user18@company.com,user4@company.com,2023-01-06 09:14:00,Project Update
-user18@company.com,user8@company.com,2023-01-06 11:02:00,Meeting
-user9@company.com,user5@company.com,2023-01-06 11:55:00,Project Update
-user8@company.com,user7@company.com,2023-01-06 15:07:00,Project Update
-user12@company.com,user13@company.com,2023-01-06 12:05:00,Request
-user9@company.com,user5@company.com,2023-01-06 13:57:00,Request
-user10@company.com,user12@company.com,2023-01-06 07:40:00,Project Update
-user12@company.com,user8@company.com,2023-01-06 18:17:00,Meeting
-user9@company.com,user1@company.com,2023-01-06 15:42:00,Request
-user4@company.com,user14@company.com,2023-01-06 17:16:00,Request
-user18@company.com,user7@company.com,2023-01-06 14:14:00,Invoice
-user9@company.com,user7@company.com,2023-01-06 16:40:00,Confidential
-user5@company.com,user16@company.com,2023-01-06 10:46:00,Confidential
-user12@company.com,user5@company.com,2023-01-06 14:05:00,Confidential
-user6@company.com,user16@company.com,2023-01-06 09:52:00,Meeting
-user19@company.com,user16@company.com,2023-01-07 18:11:00,Invoice
-user1@company.com,user11@company.com,2023-01-07 09:56:00,Meeting
-user13@company.com,user7@company.com,2023-01-07 08:09:00,Project Update
-user14@company.com,user8@company.com,2023-01-07 14:58:00,Confidential
-user4@company.com,user18@company.com,2023-01-07 09:46:00,Project Update
-user20@company.com,user4@company.com,2023-01-07 13:24:00,Project Update
-user4@company.com,user1@company.com,2023-01-07 19:53:00,Project Update
-user5@company.com,user9@company.com,2023-01-07 19:05:00,Invoice
-user5@company.com,user1@company.com,2023-01-07 19:00:00,Project Update
-user18@company.com,user11@company.com,2023-01-07 18:05:00,Meeting
-user5@company.com,user17@company.com,2023-01-07 19:36:00,Confidential
-user6@company.com,user11@company.com,2023-01-07 12:30:00,Meeting
-user8@company.com,user2@company.com,2023-01-07 15:44:00,Invoice
-user18@company.com,user4@company.com,2023-01-07 07:52:00,Project Update
-user4@company.com,user19@company.com,2023-01-07 11:06:00,Request
-user14@company.com,user5@company.com,2023-01-07 07:58:00,Meeting
-user1@company.com,user9@company.com,2023-01-07 13:24:00,Meeting
-user12@company.com,user10@company.com,2023-01-07 10:58:00,Confidential
-user4@company.com,user17@company.com,2023-01-07 09:07:00,Meeting
-user4@company.com,user11@company.com,2023-01-07 12:04:00,Request
-user11@company.com,user4@company.com,2023-01-07 12:59:00,Project Update
-user2@company.com,user6@company.com,2023-01-07 09:27:00,Request
-user11@company.com,user6@company.com,2023-01-07 17:27:00,Meeting
-user10@company.com,user11@company.com,2023-01-07 12:56:00,Project Update
-user9@company.com,user17@company.com,2023-01-07 17:23:00,Invoice
-user3@company.com,user1@company.com,2023-01-07 09:49:00,Meeting
-user11@company.com,user5@company.com,2023-01-07 13:28:00,Confidential
-user3@company.com,user5@company.com,2023-01-07 16:27:00,Invoice
-user5@company.com,user3@company.com,2023-01-07 12:08:00,Meeting
-user13@company.com,user12@company.com,2023-01-07 12:31:00,Confidential
-user16@company.com,user14@company.com,2023-01-07 16:50:00,Invoice
-user5@company.com,user9@company.com,2023-01-07 13:26:00,Request
-user16@company.com,user19@company.com,2023-01-07 15:31:00,Request
-user18@company.com,user8@company.com,2023-01-07 13:05:00,Request
-user14@company.com,user18@company.com,2023-01-07 16:49:00,Meeting
-user3@company.com,user9@company.com,2023-01-07 12:00:00,Meeting
-user1@company.com,user13@company.com,2023-01-08 15:30:00,Meeting
-user4@company.com,user2@company.com,2023-01-08 12:23:00,Meeting
-user10@company.com,user16@company.com,2023-01-08 09:53:00,Request
-user14@company.com,user8@company.com,2023-01-08 10:52:00,Meeting
-user2@company.com,user6@company.com,2023-01-08 08:44:00,Meeting
-user13@company.com,user1@company.com,2023-01-08 18:27:00,Invoice
-user2@company.com,user5@company.com,2023-01-08 17:37:00,Project Update
-user16@company.com,user6@company.com,2023-01-08 07:09:00,Invoice
-user5@company.com,user3@company.com,2023-01-08 10:04:00,Project Update
-user19@company.com,user14@company.com,2023-01-08 09:48:00,Meeting
-user16@company.com,user5@company.com,2023-01-08 18:33:00,Invoice
-user16@company.com,user14@company.com,2023-01-08 18:21:00,Confidential
-user1@company.com,user11@company.com,2023-01-08 08:09:00,Project Update
-user2@company.com,user7@company.com,2023-01-08 15:10:00,Project Update
-user13@company.com,user15@company.com,2023-01-08 17:56:00,Confidential
-user18@company.com,user9@company.com,2023-01-08 16:32:00,Invoice
-user8@company.com,user15@company.com,2023-01-08 09:17:00,Project Update
-user17@company.com,user13@company.com,2023-01-08 09:47:00,Meeting
-user13@company.com,user2@company.com,2023-01-08 10:25:00,Meeting
-user18@company.com,user3@company.com,2023-01-08 18:29:00,Confidential
-user11@company.com,user14@company.com,2023-01-08 13:10:00,Project Update
-user12@company.com,user15@company.com,2023-01-08 10:17:00,Project Update
-user4@company.com,user3@company.com,2023-01-08 12:38:00,Invoice
-user1@company.com,user9@company.com,2023-01-08 11:10:00,Request
-user4@company.com,user3@company.com,2023-01-08 10:38:00,Project Update
-user10@company.com,user7@company.com,2023-01-08 15:12:00,Project Update
-user8@company.com,user10@company.com,2023-01-08 08:36:00,Request
-user2@company.com,user20@company.com,2023-01-08 19:30:00,Project Update
-user2@company.com,user12@company.com,2023-01-08 08:19:00,Project Update
-user12@company.com,user10@company.com,2023-01-08 13:32:00,Meeting
-user11@company.com,user14@company.com,2023-01-08 18:22:00,Meeting
-user4@company.com,user12@company.com,2023-01-08 13:57:00,Request
-user4@company.com,user18@company.com,2023-01-08 19:49:00,Meeting
-user1@company.com,user20@company.com,2023-01-08 19:24:00,Confidential
-user19@company.com,user2@company.com,2023-01-08 11:10:00,Meeting
-user15@company.com,user3@company.com,2023-01-08 17:05:00,Meeting
-user7@company.com,user5@company.com,2023-01-08 19:45:00,Meeting
-user17@company.com,user18@company.com,2023-01-08 18:38:00,Request
-user11@company.com,user16@company.com,2023-01-08 19:08:00,Invoice
-user10@company.com,user13@company.com,2023-01-08 16:54:00,Confidential
-user2@company.com,user14@company.com,2023-01-08 10:13:00,Request
-user20@company.com,user3@company.com,2023-01-08 09:36:00,Confidential
-user4@company.com,user1@company.com,2023-01-08 09:49:00,Invoice
-user18@company.com,user3@company.com,2023-01-08 14:06:00,Confidential
-user11@company.com,user6@company.com,2023-01-08 11:10:00,Project Update
-user9@company.com,user20@company.com,2023-01-08 12:22:00,Project Update
-user3@company.com,user7@company.com,2023-01-08 18:49:00,Confidential
-user9@company.com,user17@company.com,2023-01-08 11:48:00,Confidential
-user5@company.com,user4@company.com,2023-01-08 16:31:00,Project Update
-user12@company.com,user10@company.com,2023-01-08 13:26:00,Request
-user5@company.com,user16@company.com,2023-01-08 12:32:00,Request
-user11@company.com,user13@company.com,2023-01-08 08:43:00,Confidential
-user17@company.com,user15@company.com,2023-01-08 11:56:00,Project Update
-user20@company.com,user2@company.com,2023-01-08 18:50:00,Meeting
-user18@company.com,user1@company.com,2023-01-08 09:54:00,Project Update
-user10@company.com,user14@company.com,2023-01-08 09:36:00,Confidential
-user3@company.com,user9@company.com,2023-01-08 13:55:00,Confidential
-user3@company.com,user13@company.com,2023-01-09 14:29:00,Request
-user15@company.com,user4@company.com,2023-01-09 08:11:00,Project Update
-user13@company.com,user15@company.com,2023-01-09 10:25:00,Invoice
-user3@company.com,user12@company.com,2023-01-09 12:38:00,Confidential
-user7@company.com,user17@company.com,2023-01-09 08:17:00,Confidential
-user2@company.com,user19@company.com,2023-01-09 09:30:00,Meeting
-user7@company.com,user12@company.com,2023-01-09 16:02:00,Request
-user13@company.com,user2@company.com,2023-01-09 19:23:00,Confidential
-user16@company.com,user7@company.com,2023-01-09 07:13:00,Project Update
-user14@company.com,user9@company.com,2023-01-09 11:40:00,Meeting
-user3@company.com,user6@company.com,2023-01-09 08:17:00,Confidential
-user3@company.com,user11@company.com,2023-01-09 18:28:00,Confidential
-user17@company.com,user7@company.com,2023-01-09 17:57:00,Invoice
-user6@company.com,user2@company.com,2023-01-09 08:57:00,Confidential
-user11@company.com,user10@company.com,2023-01-09 09:12:00,Invoice
-user14@company.com,user17@company.com,2023-01-09 14:34:00,Meeting
-user14@company.com,user12@company.com,2023-01-09 18:36:00,Confidential
-user1@company.com,user19@company.com,2023-01-09 19:57:00,Request
-user7@company.com,user3@company.com,2023-01-09 18:42:00,Request
-user20@company.com,user5@company.com,2023-01-09 12:42:00,Invoice
-user1@company.com,user6@company.com,2023-01-09 14:59:00,Meeting
-user16@company.com,user11@company.com,2023-01-09 08:50:00,Confidential
-user9@company.com,user18@company.com,2023-01-09 18:00:00,Confidential
-user5@company.com,user16@company.com,2023-01-09 17:37:00,Project Update
-user2@company.com,user8@company.com,2023-01-09 18:12:00,Confidential
-user18@company.com,user6@company.com,2023-01-09 16:24:00,Meeting
-user12@company.com,user7@company.com,2023-01-09 10:43:00,Request
-user1@company.com,user13@company.com,2023-01-09 12:01:00,Invoice
-user10@company.com,user18@company.com,2023-01-09 08:44:00,Confidential
-user15@company.com,user14@company.com,2023-01-09 13:22:00,Invoice
-user18@company.com,user14@company.com,2023-01-09 15:48:00,Invoice
-user4@company.com,user7@company.com,2023-01-09 14:27:00,Invoice
-user6@company.com,user19@company.com,2023-01-09 16:10:00,Request
-user14@company.com,user13@company.com,2023-01-09 11:54:00,Confidential
-user10@company.com,user4@company.com,2023-01-09 08:51:00,Project Update
-user3@company.com,user1@company.com,2023-01-09 16:59:00,Confidential
-user4@company.com,user17@company.com,2023-01-09 18:48:00,Request
-user18@company.com,user4@company.com,2023-01-09 17:28:00,Request
-user19@company.com,user2@company.com,2023-01-09 17:18:00,Confidential
-user7@company.com,user9@company.com,2023-01-09 19:29:00,Request
-user13@company.com,user4@company.com,2023-01-09 10:54:00,Confidential
-user4@company.com,user13@company.com,2023-01-09 19:58:00,Confidential
-user14@company.com,user13@company.com,2023-01-09 07:23:00,Meeting
-user17@company.com,user10@company.com,2023-01-09 11:56:00,Invoice
-user10@company.com,user15@company.com,2023-01-09 17:15:00,Project Update
-user14@company.com,user2@company.com,2023-01-09 07:01:00,Meeting
-user12@company.com,user18@company.com,2023-01-09 18:38:00,Invoice
-user11@company.com,user6@company.com,2023-01-09 16:27:00,Meeting
-user18@company.com,user13@company.com,2023-01-09 10:39:00,Confidential
-user2@company.com,user20@company.com,2023-01-09 13:08:00,Confidential
-user6@company.com,user14@company.com,2023-01-09 12:33:00,Meeting
-user8@company.com,user4@company.com,2023-01-10 18:51:00,Meeting
-user17@company.com,user4@company.com,2023-01-10 17:36:00,Confidential
-user9@company.com,user19@company.com,2023-01-10 09:20:00,Meeting
-user3@company.com,user4@company.com,2023-01-10 07:27:00,Project Update
-user19@company.com,user5@company.com,2023-01-10 07:39:00,Request
-user3@company.com,user20@company.com,2023-01-10 13:01:00,Meeting
-user15@company.com,user12@company.com,2023-01-10 09:15:00,Meeting
-user10@company.com,user7@company.com,2023-01-10 15:53:00,Meeting
-user13@company.com,user9@company.com,2023-01-10 17:03:00,Invoice
-user3@company.com,user6@company.com,2023-01-10 17:01:00,Request
-user4@company.com,user5@company.com,2023-01-10 14:59:00,Request
-user4@company.com,user5@company.com,2023-01-10 09:18:00,Invoice
-user6@company.com,user3@company.com,2023-01-10 08:31:00,Invoice
-user7@company.com,user14@company.com,2023-01-10 08:31:00,Project Update
-user14@company.com,user3@company.com,2023-01-10 14:40:00,Project Update
-user7@company.com,user15@company.com,2023-01-10 13:56:00,Invoice
-user15@company.com,user6@company.com,2023-01-10 09:19:00,Project Update
-user6@company.com,user20@company.com,2023-01-10 17:38:00,Project Update
-user4@company.com,user12@company.com,2023-01-10 12:30:00,Request
-user20@company.com,user18@company.com,2023-01-10 07:10:00,Request
-user9@company.com,user4@company.com,2023-01-10 10:38:00,Project Update
-user18@company.com,user1@company.com,2023-01-10 15:32:00,Meeting
-user7@company.com,user13@company.com,2023-01-10 08:57:00,Meeting
-user1@company.com,user12@company.com,2023-01-10 09:14:00,Project Update
-user5@company.com,user10@company.com,2023-01-10 11:30:00,Meeting
-user3@company.com,user13@company.com,2023-01-10 18:35:00,Invoice
-user15@company.com,user17@company.com,2023-01-10 13:32:00,Confidential
-user7@company.com,user10@company.com,2023-01-10 09:12:00,Invoice
-user13@company.com,user4@company.com,2023-01-10 16:50:00,Request
-user10@company.com,user6@company.com,2023-01-10 19:13:00,Confidential
-user14@company.com,user16@company.com,2023-01-10 13:38:00,Invoice
-user11@company.com,user4@company.com,2023-01-10 16:24:00,Confidential
-user7@company.com,user20@company.com,2023-01-10 12:23:00,Project Update
-user15@company.com,user6@company.com,2023-01-10 07:32:00,Invoice
-user19@company.com,user14@company.com,2023-01-10 11:38:00,Request
-user12@company.com,user14@company.com,2023-01-10 07:07:00,Meeting
-user11@company.com,user15@company.com,2023-01-10 19:11:00,Invoice
-user8@company.com,user3@company.com,2023-01-10 10:42:00,Invoice
-user12@company.com,user5@company.com,2023-01-10 19:20:00,Project Update
-user1@company.com,user12@company.com,2023-01-10 18:00:00,Invoice
-user7@company.com,user16@company.com,2023-01-10 16:50:00,Invoice
-user8@company.com,user19@company.com,2023-01-10 08:24:00,Invoice
-user20@company.com,user7@company.com,2023-01-10 15:13:00,Project Update
-user9@company.com,user3@company.com,2023-01-11 16:57:00,Confidential
-user14@company.com,user11@company.com,2023-01-11 12:12:00,Meeting
-user2@company.com,user17@company.com,2023-01-11 14:02:00,Invoice
-user14@company.com,user4@company.com,2023-01-11 08:28:00,Meeting
-user20@company.com,user11@company.com,2023-01-11 16:24:00,Meeting
-user19@company.com,user1@company.com,2023-01-11 11:01:00,Request
-user1@company.com,user16@company.com,2023-01-11 11:08:00,Confidential
-user2@company.com,user19@company.com,2023-01-11 15:02:00,Invoice
-user1@company.com,user4@company.com,2023-01-11 14:06:00,Confidential
-user10@company.com,user9@company.com,2023-01-11 12:48:00,Invoice
-user13@company.com,user3@company.com,2023-01-11 15:49:00,Invoice
-user16@company.com,user2@company.com,2023-01-11 13:19:00,Confidential
-user16@company.com,user4@company.com,2023-01-11 12:39:00,Project Update
-user1@company.com,user9@company.com,2023-01-11 07:52:00,Project Update
-user5@company.com,user4@company.com,2023-01-11 12:55:00,Confidential
-user8@company.com,user6@company.com,2023-01-11 08:12:00,Invoice
-user18@company.com,user1@company.com,2023-01-11 18:55:00,Project Update
-user9@company.com,user2@company.com,2023-01-11 08:03:00,Invoice
-user3@company.com,user10@company.com,2023-01-11 12:44:00,Request
-user13@company.com,user9@company.com,2023-01-11 18:10:00,Meeting
-user19@company.com,user15@company.com,2023-01-11 08:08:00,Invoice
-user5@company.com,user20@company.com,2023-01-11 13:40:00,Confidential
-user4@company.com,user18@company.com,2023-01-11 15:15:00,Request
-user16@company.com,user17@company.com,2023-01-11 11:20:00,Confidential
-user8@company.com,user3@company.com,2023-01-11 11:49:00,Invoice
-user3@company.com,user13@company.com,2023-01-11 15:53:00,Meeting
-user7@company.com,user3@company.com,2023-01-11 08:31:00,Project Update
-user7@company.com,user1@company.com,2023-01-11 17:13:00,Confidential
-user13@company.com,user7@company.com,2023-01-11 14:06:00,Invoice
-user7@company.com,user20@company.com,2023-01-11 19:33:00,Request
-user11@company.com,user10@company.com,2023-01-11 18:29:00,Meeting
-user17@company.com,user4@company.com,2023-01-11 09:14:00,Invoice
-user13@company.com,user16@company.com,2023-01-11 16:32:00,Meeting
-user13@company.com,user7@company.com,2023-01-11 08:17:00,Confidential
-user6@company.com,user11@company.com,2023-01-11 16:41:00,Project Update
-user5@company.com,user16@company.com,2023-01-11 08:47:00,Project Update
-user8@company.com,user1@company.com,2023-01-11 14:11:00,Invoice
-user1@company.com,user17@company.com,2023-01-11 17:33:00,Confidential
-user12@company.com,user9@company.com,2023-01-11 08:59:00,Request
-user3@company.com,user13@company.com,2023-01-11 13:13:00,Meeting
-user13@company.com,user18@company.com,2023-01-11 13:32:00,Invoice
-user2@company.com,user16@company.com,2023-01-11 11:23:00,Project Update
-user2@company.com,user14@company.com,2023-01-11 18:59:00,Confidential
-user7@company.com,user11@company.com,2023-01-11 10:25:00,Meeting
-user20@company.com,user9@company.com,2023-01-11 15:38:00,Confidential
-user17@company.com,user14@company.com,2023-01-11 08:43:00,Project Update
-user8@company.com,user4@company.com,2023-01-11 10:07:00,Project Update
-user2@company.com,user20@company.com,2023-01-12 11:15:00,Project Update
-user18@company.com,user4@company.com,2023-01-12 11:14:00,Request
-user13@company.com,user14@company.com,2023-01-12 13:06:00,Meeting
-user9@company.com,user17@company.com,2023-01-12 10:10:00,Meeting
-user12@company.com,user10@company.com,2023-01-12 18:38:00,Invoice
-user1@company.com,user5@company.com,2023-01-12 09:32:00,Request
-user16@company.com,user10@company.com,2023-01-12 18:15:00,Meeting
-user11@company.com,user3@company.com,2023-01-12 09:11:00,Invoice
-user15@company.com,user5@company.com,2023-01-12 07:42:00,Confidential
-user14@company.com,user11@company.com,2023-01-12 07:11:00,Invoice
-user3@company.com,user7@company.com,2023-01-12 17:48:00,Project Update
-user20@company.com,user12@company.com,2023-01-12 14:37:00,Project Update
-user16@company.com,user8@company.com,2023-01-12 14:07:00,Project Update
-user1@company.com,user20@company.com,2023-01-12 17:18:00,Meeting
-user17@company.com,user18@company.com,2023-01-12 09:48:00,Meeting
-user4@company.com,user5@company.com,2023-01-12 11:51:00,Invoice
-user15@company.com,user17@company.com,2023-01-12 18:22:00,Request
-user9@company.com,user17@company.com,2023-01-12 11:23:00,Confidential
-user1@company.com,user13@company.com,2023-01-12 11:45:00,Invoice
-user17@company.com,user16@company.com,2023-01-12 08:17:00,Request
-user1@company.com,user6@company.com,2023-01-12 13:54:00,Meeting
-user5@company.com,user13@company.com,2023-01-12 14:01:00,Meeting
-user19@company.com,user14@company.com,2023-01-12 12:13:00,Project Update
-user7@company.com,user14@company.com,2023-01-12 17:06:00,Invoice
-user18@company.com,user15@company.com,2023-01-12 15:11:00,Invoice
-user12@company.com,user11@company.com,2023-01-12 13:37:00,Confidential
-user9@company.com,user11@company.com,2023-01-12 10:02:00,Request
-user17@company.com,user11@company.com,2023-01-12 16:07:00,Confidential
-user15@company.com,user20@company.com,2023-01-12 19:50:00,Invoice
-user10@company.com,user4@company.com,2023-01-12 07:31:00,Meeting
-user15@company.com,user5@company.com,2023-01-12 15:18:00,Request
-user18@company.com,user6@company.com,2023-01-12 11:31:00,Invoice
-user3@company.com,user11@company.com,2023-01-12 07:29:00,Project Update
-user7@company.com,user11@company.com,2023-01-12 16:07:00,Project Update
-user16@company.com,user10@company.com,2023-01-12 07:27:00,Invoice
-user1@company.com,user3@company.com,2023-01-12 11:08:00,Invoice
-user10@company.com,user18@company.com,2023-01-12 17:49:00,Request
-user5@company.com,user3@company.com,2023-01-12 18:17:00,Meeting
-user7@company.com,user15@company.com,2023-01-12 16:58:00,Project Update
-user10@company.com,user8@company.com,2023-01-12 07:30:00,Invoice
-user8@company.com,user14@company.com,2023-01-12 13:25:00,Project Update
-user9@company.com,user11@company.com,2023-01-12 16:19:00,Meeting
-user19@company.com,user14@company.com,2023-01-12 17:56:00,Invoice
-user19@company.com,user5@company.com,2023-01-12 17:49:00,Meeting
-user9@company.com,user5@company.com,2023-01-12 13:35:00,Meeting
-user10@company.com,user11@company.com,2023-01-12 08:19:00,Request
-user15@company.com,user19@company.com,2023-01-12 09:24:00,Confidential
-user4@company.com,user6@company.com,2023-01-12 15:28:00,Invoice
-user17@company.com,user12@company.com,2023-01-12 14:22:00,Confidential
-user15@company.com,user14@company.com,2023-01-12 13:29:00,Project Update
-user18@company.com,user1@company.com,2023-01-12 19:26:00,Project Update
-user5@company.com,user11@company.com,2023-01-12 19:15:00,Request
-user17@company.com,user12@company.com,2023-01-12 09:39:00,Request
-user19@company.com,user10@company.com,2023-01-12 07:48:00,Confidential
-user5@company.com,user14@company.com,2023-01-12 17:00:00,Confidential
-user17@company.com,user15@company.com,2023-01-12 07:05:00,Project Update
-user9@company.com,user4@company.com,2023-01-12 12:38:00,Project Update
-user10@company.com,user20@company.com,2023-01-12 14:44:00,Invoice
-user2@company.com,user5@company.com,2023-01-13 18:37:00,Request
-user2@company.com,user8@company.com,2023-01-13 15:09:00,Request
-user16@company.com,user5@company.com,2023-01-13 10:57:00,Meeting
-user10@company.com,user11@company.com,2023-01-13 18:59:00,Project Update
-user16@company.com,user7@company.com,2023-01-13 08:04:00,Project Update
-user5@company.com,user4@company.com,2023-01-13 15:06:00,Meeting
-user7@company.com,user4@company.com,2023-01-13 14:01:00,Request
-user15@company.com,user13@company.com,2023-01-13 07:59:00,Project Update
-user10@company.com,user14@company.com,2023-01-13 14:11:00,Meeting
-user18@company.com,user9@company.com,2023-01-13 16:43:00,Confidential
-user20@company.com,user4@company.com,2023-01-13 13:09:00,Project Update
-user6@company.com,user5@company.com,2023-01-13 18:42:00,Meeting
-user6@company.com,user18@company.com,2023-01-13 18:44:00,Request
-user7@company.com,user17@company.com,2023-01-13 14:18:00,Invoice
-user4@company.com,user20@company.com,2023-01-13 14:23:00,Invoice
-user13@company.com,user14@company.com,2023-01-13 18:51:00,Project Update
-user15@company.com,user14@company.com,2023-01-13 13:09:00,Project Update
-user10@company.com,user16@company.com,2023-01-13 08:36:00,Confidential
-user1@company.com,user20@company.com,2023-01-13 11:02:00,Request
-user15@company.com,user2@company.com,2023-01-13 12:08:00,Confidential
-user15@company.com,user9@company.com,2023-01-13 07:10:00,Invoice
-user17@company.com,user18@company.com,2023-01-13 10:22:00,Request
-user13@company.com,user18@company.com,2023-01-13 08:11:00,Meeting
-user12@company.com,user20@company.com,2023-01-13 12:29:00,Meeting
-user9@company.com,user11@company.com,2023-01-13 13:04:00,Confidential
-user13@company.com,user17@company.com,2023-01-13 16:42:00,Meeting
-user19@company.com,user17@company.com,2023-01-13 19:42:00,Request
-user9@company.com,user5@company.com,2023-01-13 18:20:00,Request
-user19@company.com,user12@company.com,2023-01-13 16:39:00,Confidential
-user3@company.com,user2@company.com,2023-01-13 07:54:00,Meeting
-user8@company.com,user4@company.com,2023-01-13 17:06:00,Confidential
-user16@company.com,user11@company.com,2023-01-13 19:14:00,Meeting
-user4@company.com,user7@company.com,2023-01-13 18:57:00,Confidential
-user14@company.com,user3@company.com,2023-01-13 07:39:00,Invoice
-user4@company.com,user2@company.com,2023-01-13 18:04:00,Confidential
-user12@company.com,user1@company.com,2023-01-13 09:20:00,Project Update
-user15@company.com,user13@company.com,2023-01-13 09:40:00,Request
-user18@company.com,user7@company.com,2023-01-13 10:16:00,Confidential
-user15@company.com,user10@company.com,2023-01-13 10:12:00,Meeting
-user14@company.com,user18@company.com,2023-01-13 19:50:00,Meeting
-user3@company.com,user20@company.com,2023-01-13 07:40:00,Project Update
-user7@company.com,user2@company.com,2023-01-13 19:08:00,Project Update
-user12@company.com,user15@company.com,2023-01-13 16:34:00,Project Update
-user11@company.com,user6@company.com,2023-01-13 17:46:00,Request
-user16@company.com,user7@company.com,2023-01-13 10:36:00,Confidential
-user17@company.com,user12@company.com,2023-01-13 12:39:00,Request
-user5@company.com,user3@company.com,2023-01-13 14:27:00,Confidential
-user3@company.com,user20@company.com,2023-01-13 08:08:00,Request
-user10@company.com,user4@company.com,2023-01-13 08:31:00,Meeting
-user2@company.com,user19@company.com,2023-01-13 12:01:00,Meeting
-user10@company.com,user9@company.com,2023-01-13 13:45:00,Invoice
-user3@company.com,user7@company.com,2023-01-13 11:04:00,Request
-user19@company.com,user8@company.com,2023-01-13 15:59:00,Request
-user17@company.com,user10@company.com,2023-01-13 13:39:00,Project Update
-user18@company.com,user4@company.com,2023-01-13 16:30:00,Invoice
-user1@company.com,user3@company.com,2023-01-13 12:26:00,Invoice
-user7@company.com,user12@company.com,2023-01-13 19:03:00,Meeting
-user18@company.com,user11@company.com,2023-01-14 19:42:00,Project Update
-user8@company.com,user17@company.com,2023-01-14 08:51:00,Request
-user20@company.com,user2@company.com,2023-01-14 12:04:00,Confidential
-user20@company.com,user3@company.com,2023-01-14 15:30:00,Meeting
-user9@company.com,user2@company.com,2023-01-14 08:02:00,Confidential
-user17@company.com,user8@company.com,2023-01-14 17:22:00,Confidential
-user16@company.com,user10@company.com,2023-01-14 19:54:00,Meeting
-user1@company.com,user3@company.com,2023-01-14 07:49:00,Meeting
-user18@company.com,user13@company.com,2023-01-14 17:43:00,Project Update
-user18@company.com,user16@company.com,2023-01-14 07:24:00,Confidential
-user5@company.com,user15@company.com,2023-01-14 18:27:00,Request
-user5@company.com,user4@company.com,2023-01-14 14:07:00,Request
-user12@company.com,user13@company.com,2023-01-14 10:21:00,Confidential
-user2@company.com,user9@company.com,2023-01-14 10:05:00,Request
-user1@company.com,user9@company.com,2023-01-14 13:47:00,Request
-user19@company.com,user2@company.com,2023-01-14 19:00:00,Meeting
-user2@company.com,user4@company.com,2023-01-14 07:08:00,Confidential
-user6@company.com,user11@company.com,2023-01-14 07:20:00,Invoice
-user20@company.com,user8@company.com,2023-01-14 11:08:00,Request
-user13@company.com,user17@company.com,2023-01-14 17:07:00,Project Update
-user3@company.com,user10@company.com,2023-01-14 15:13:00,Confidential
-user12@company.com,user8@company.com,2023-01-14 14:45:00,Invoice
-user12@company.com,user19@company.com,2023-01-14 11:55:00,Meeting
-user17@company.com,user9@company.com,2023-01-14 12:44:00,Request
-user17@company.com,user4@company.com,2023-01-14 07:22:00,Confidential
-user20@company.com,user16@company.com,2023-01-14 11:05:00,Meeting
-user5@company.com,user18@company.com,2023-01-14 10:19:00,Request
-user7@company.com,user4@company.com,2023-01-14 12:46:00,Meeting
-user2@company.com,user9@company.com,2023-01-14 18:28:00,Confidential
-user4@company.com,user1@company.com,2023-01-14 14:53:00,Project Update
-user9@company.com,user10@company.com,2023-01-14 16:24:00,Invoice
-user3@company.com,user2@company.com,2023-01-14 11:54:00,Request
-user13@company.com,user17@company.com,2023-01-14 07:55:00,Confidential
-user13@company.com,user16@company.com,2023-01-14 07:14:00,Meeting
-user13@company.com,user6@company.com,2023-01-14 17:27:00,Request
-user2@company.com,user11@company.com,2023-01-14 07:34:00,Invoice
-user1@company.com,user12@company.com,2023-01-15 11:51:00,Request
-user7@company.com,user1@company.com,2023-01-15 12:46:00,Request
-user14@company.com,user15@company.com,2023-01-15 19:46:00,Project Update
-user4@company.com,user19@company.com,2023-01-15 13:46:00,Invoice
-user18@company.com,user15@company.com,2023-01-15 13:36:00,Request
-user17@company.com,user9@company.com,2023-01-15 09:24:00,Confidential
-user8@company.com,user5@company.com,2023-01-15 07:17:00,Invoice
-user3@company.com,user9@company.com,2023-01-15 19:34:00,Invoice
-user11@company.com,user20@company.com,2023-01-15 13:02:00,Request
-user9@company.com,user13@company.com,2023-01-15 11:42:00,Invoice
-user20@company.com,user1@company.com,2023-01-15 08:19:00,Request
-user11@company.com,user9@company.com,2023-01-15 09:28:00,Confidential
-user1@company.com,user16@company.com,2023-01-15 07:29:00,Project Update
-user12@company.com,user17@company.com,2023-01-15 17:54:00,Request
-user7@company.com,user15@company.com,2023-01-15 07:37:00,Project Update
-user9@company.com,user19@company.com,2023-01-15 12:04:00,Confidential
-user6@company.com,user10@company.com,2023-01-15 19:50:00,Invoice
-user9@company.com,user17@company.com,2023-01-15 09:14:00,Meeting
-user5@company.com,user2@company.com,2023-01-15 10:07:00,Project Update
-user6@company.com,user18@company.com,2023-01-15 14:37:00,Invoice
-user2@company.com,user19@company.com,2023-01-15 18:14:00,Project Update
-user9@company.com,user10@company.com,2023-01-15 07:43:00,Invoice
-user18@company.com,user2@company.com,2023-01-15 16:15:00,Invoice
-user4@company.com,user3@company.com,2023-01-15 15:28:00,Project Update
-user17@company.com,user3@company.com,2023-01-15 10:13:00,Invoice
-user19@company.com,user12@company.com,2023-01-15 17:26:00,Project Update
-user14@company.com,user10@company.com,2023-01-15 09:01:00,Invoice
-user20@company.com,user12@company.com,2023-01-15 12:26:00,Invoice
-user16@company.com,user10@company.com,2023-01-15 16:01:00,Meeting
-user12@company.com,user2@company.com,2023-01-15 11:59:00,Meeting
-user19@company.com,user1@company.com,2023-01-15 08:38:00,Meeting
-user11@company.com,user18@company.com,2023-01-15 18:49:00,Request
-user19@company.com,user12@company.com,2023-01-15 10:24:00,Request
-user2@company.com,user6@company.com,2023-01-15 13:48:00,Project Update
-user3@company.com,user9@company.com,2023-01-15 16:32:00,Request
-user18@company.com,user14@company.com,2023-01-15 15:46:00,Project Update
-user17@company.com,user2@company.com,2023-01-15 16:30:00,Request
-user17@company.com,user15@company.com,2023-01-15 12:17:00,Meeting
-user19@company.com,user10@company.com,2023-01-15 10:21:00,Meeting
-user12@company.com,user8@company.com,2023-01-15 14:20:00,Project Update
-user8@company.com,user16@company.com,2023-01-15 18:56:00,Confidential
-user12@company.com,user3@company.com,2023-01-15 12:35:00,Request
-user3@company.com,user13@company.com,2023-01-15 17:30:00,Request
-user8@company.com,user16@company.com,2023-01-15 19:26:00,Meeting
-user19@company.com,user5@company.com,2023-01-15 15:15:00,Confidential
-user19@company.com,user5@company.com,2023-01-15 16:16:00,Invoice
-user11@company.com,user12@company.com,2023-01-15 08:05:00,Confidential
-user14@company.com,user18@company.com,2023-01-15 09:36:00,Confidential
-user7@company.com,user6@company.com,2023-01-15 14:00:00,Meeting
-user4@company.com,user15@company.com,2023-01-15 11:48:00,Request
-user16@company.com,user4@company.com,2023-01-15 09:55:00,Project Update
-user14@company.com,user1@company.com,2023-01-15 18:10:00,Project Update
-user5@company.com,user18@company.com,2023-01-15 15:58:00,Confidential
-user14@company.com,user12@company.com,2023-01-15 09:25:00,Request
-user8@company.com,user11@company.com,2023-01-15 08:21:00,Invoice
-user19@company.com,user4@company.com,2023-01-15 18:02:00,Project Update
-user12@company.com,user16@company.com,2023-01-15 13:40:00,Confidential
-user14@company.com,user10@company.com,2023-01-15 19:30:00,Meeting
-user6@company.com,user20@company.com,2023-01-15 15:05:00,Meeting
-user1@company.com,user20@company.com,2023-01-16 16:23:00,Confidential
-user13@company.com,user11@company.com,2023-01-16 14:11:00,Request
-user19@company.com,user9@company.com,2023-01-16 19:06:00,Meeting
-user10@company.com,user17@company.com,2023-01-16 12:03:00,Request
-user17@company.com,user18@company.com,2023-01-16 16:32:00,Confidential
-user10@company.com,user12@company.com,2023-01-16 13:20:00,Meeting
-user5@company.com,user2@company.com,2023-01-16 18:56:00,Meeting
-user14@company.com,user18@company.com,2023-01-16 11:36:00,Request
-user11@company.com,user4@company.com,2023-01-16 12:18:00,Meeting
-user4@company.com,user11@company.com,2023-01-16 11:31:00,Confidential
-user8@company.com,user6@company.com,2023-01-16 11:58:00,Invoice
-user20@company.com,user4@company.com,2023-01-16 10:42:00,Invoice
-user5@company.com,user4@company.com,2023-01-16 10:35:00,Request
-user6@company.com,user1@company.com,2023-01-16 16:57:00,Project Update
-user18@company.com,user19@company.com,2023-01-16 19:12:00,Project Update
-user16@company.com,user1@company.com,2023-01-16 12:13:00,Invoice
-user19@company.com,user14@company.com,2023-01-16 18:28:00,Request
-user5@company.com,user16@company.com,2023-01-16 11:58:00,Project Update
-user4@company.com,user16@company.com,2023-01-16 13:31:00,Invoice
-user3@company.com,user6@company.com,2023-01-16 11:46:00,Project Update
-user12@company.com,user3@company.com,2023-01-16 18:50:00,Meeting
-user3@company.com,user12@company.com,2023-01-16 09:32:00,Invoice
-user9@company.com,user16@company.com,2023-01-16 17:47:00,Request
-user3@company.com,user12@company.com,2023-01-16 07:27:00,Project Update
-user17@company.com,user11@company.com,2023-01-16 10:53:00,Request
-user2@company.com,user1@company.com,2023-01-16 10:08:00,Request
-user13@company.com,user8@company.com,2023-01-16 17:12:00,Invoice
-user16@company.com,user5@company.com,2023-01-16 14:52:00,Meeting
-user16@company.com,user10@company.com,2023-01-16 09:12:00,Project Update
-user17@company.com,user7@company.com,2023-01-16 07:27:00,Project Update
-user16@company.com,user19@company.com,2023-01-16 16:13:00,Meeting
-user2@company.com,user15@company.com,2023-01-16 18:16:00,Request
-user13@company.com,user20@company.com,2023-01-16 10:40:00,Invoice
-user16@company.com,user18@company.com,2023-01-16 17:11:00,Invoice
-user8@company.com,user11@company.com,2023-01-16 17:31:00,Confidential
-user13@company.com,user12@company.com,2023-01-16 15:30:00,Invoice
-user4@company.com,user9@company.com,2023-01-16 08:56:00,Invoice
-user14@company.com,user16@company.com,2023-01-16 12:15:00,Confidential
-user4@company.com,user7@company.com,2023-01-16 14:20:00,Project Update
-user12@company.com,user14@company.com,2023-01-16 18:08:00,Confidential
-user16@company.com,user14@company.com,2023-01-16 17:15:00,Project Update
-user10@company.com,user9@company.com,2023-01-16 15:13:00,Confidential
-user2@company.com,user19@company.com,2023-01-16 19:20:00,Invoice
-user11@company.com,user15@company.com,2023-01-16 13:51:00,Confidential
-user14@company.com,user13@company.com,2023-01-16 11:58:00,Project Update
-user9@company.com,user17@company.com,2023-01-16 18:14:00,Invoice
-user2@company.com,user11@company.com,2023-01-16 14:26:00,Meeting
-user19@company.com,user6@company.com,2023-01-16 15:13:00,Project Update
-user20@company.com,user11@company.com,2023-01-16 09:38:00,Request
-user1@company.com,user2@company.com,2023-01-16 19:24:00,Project Update
-user11@company.com,user13@company.com,2023-01-16 19:49:00,Request
-user3@company.com,user2@company.com,2023-01-16 15:13:00,Invoice
-user18@company.com,user7@company.com,2023-01-16 09:53:00,Request
-user13@company.com,user8@company.com,2023-01-16 11:51:00,Meeting
-user12@company.com,user11@company.com,2023-01-16 13:13:00,Request
-user8@company.com,user1@company.com,2023-01-16 07:54:00,Project Update
-user17@company.com,user4@company.com,2023-01-16 15:25:00,Confidential
-user2@company.com,user7@company.com,2023-01-16 11:19:00,Project Update
-user8@company.com,user2@company.com,2023-01-17 11:47:00,Project Update
-user13@company.com,user14@company.com,2023-01-17 09:52:00,Invoice
-user3@company.com,user4@company.com,2023-01-17 08:32:00,Confidential
-user1@company.com,user2@company.com,2023-01-17 18:53:00,Request
-user20@company.com,user5@company.com,2023-01-17 08:47:00,Request
-user13@company.com,user7@company.com,2023-01-17 16:54:00,Invoice
-user11@company.com,user15@company.com,2023-01-17 15:47:00,Project Update
-user10@company.com,user9@company.com,2023-01-17 14:12:00,Project Update
-user9@company.com,user20@company.com,2023-01-17 14:24:00,Invoice
-user14@company.com,user3@company.com,2023-01-17 10:26:00,Request
-user9@company.com,user17@company.com,2023-01-17 11:58:00,Request
-user17@company.com,user8@company.com,2023-01-17 13:01:00,Confidential
-user13@company.com,user12@company.com,2023-01-17 19:34:00,Project Update
-user15@company.com,user8@company.com,2023-01-17 16:01:00,Confidential
-user8@company.com,user16@company.com,2023-01-17 12:30:00,Request
-user4@company.com,user11@company.com,2023-01-17 12:09:00,Project Update
-user4@company.com,user19@company.com,2023-01-17 09:13:00,Confidential
-user19@company.com,user8@company.com,2023-01-17 08:09:00,Confidential
-user20@company.com,user16@company.com,2023-01-17 15:46:00,Request
-user8@company.com,user2@company.com,2023-01-17 19:31:00,Invoice
-user14@company.com,user10@company.com,2023-01-17 18:21:00,Meeting
-user2@company.com,user12@company.com,2023-01-17 18:36:00,Request
-user14@company.com,user1@company.com,2023-01-17 11:44:00,Meeting
-user18@company.com,user16@company.com,2023-01-17 15:31:00,Invoice
-user8@company.com,user12@company.com,2023-01-17 14:45:00,Confidential
-user17@company.com,user19@company.com,2023-01-17 18:46:00,Project Update
-user4@company.com,user15@company.com,2023-01-17 18:04:00,Confidential
-user5@company.com,user1@company.com,2023-01-17 09:33:00,Project Update
-user6@company.com,user8@company.com,2023-01-17 14:55:00,Project Update
-user2@company.com,user15@company.com,2023-01-17 14:10:00,Request
-user16@company.com,user5@company.com,2023-01-17 18:55:00,Request
-user14@company.com,user13@company.com,2023-01-17 07:18:00,Project Update
-user14@company.com,user10@company.com,2023-01-17 18:59:00,Invoice
-user17@company.com,user11@company.com,2023-01-17 16:56:00,Invoice
-user19@company.com,user6@company.com,2023-01-17 09:18:00,Request
-user7@company.com,user13@company.com,2023-01-17 15:38:00,Invoice
-user16@company.com,user15@company.com,2023-01-17 10:59:00,Invoice
-user5@company.com,user7@company.com,2023-01-18 15:45:00,Confidential
-user1@company.com,user12@company.com,2023-01-18 13:11:00,Meeting
-user16@company.com,user3@company.com,2023-01-18 07:19:00,Meeting
-user7@company.com,user4@company.com,2023-01-18 15:29:00,Invoice
-user4@company.com,user2@company.com,2023-01-18 16:29:00,Request
-user6@company.com,user3@company.com,2023-01-18 12:40:00,Request
-user8@company.com,user13@company.com,2023-01-18 17:00:00,Meeting
-user9@company.com,user11@company.com,2023-01-18 13:37:00,Invoice
-user12@company.com,user14@company.com,2023-01-18 11:35:00,Request
-user7@company.com,user3@company.com,2023-01-18 16:09:00,Project Update
-user7@company.com,user10@company.com,2023-01-18 09:16:00,Request
-user4@company.com,user6@company.com,2023-01-18 19:33:00,Request
-user13@company.com,user11@company.com,2023-01-18 16:49:00,Request
-user20@company.com,user9@company.com,2023-01-18 19:47:00,Request
-user16@company.com,user7@company.com,2023-01-18 09:00:00,Meeting
-user7@company.com,user3@company.com,2023-01-18 19:39:00,Meeting
-user5@company.com,user7@company.com,2023-01-18 14:55:00,Project Update
-user11@company.com,user3@company.com,2023-01-18 07:08:00,Request
-user15@company.com,user14@company.com,2023-01-18 17:30:00,Invoice
-user10@company.com,user18@company.com,2023-01-18 19:07:00,Meeting
-user18@company.com,user13@company.com,2023-01-18 13:49:00,Confidential
-user16@company.com,user12@company.com,2023-01-18 11:53:00,Request
-user11@company.com,user18@company.com,2023-01-18 08:56:00,Request
-user7@company.com,user6@company.com,2023-01-18 17:53:00,Invoice
-user5@company.com,user15@company.com,2023-01-18 15:28:00,Confidential
-user9@company.com,user4@company.com,2023-01-18 15:57:00,Confidential
-user12@company.com,user6@company.com,2023-01-18 07:55:00,Invoice
-user15@company.com,user12@company.com,2023-01-18 18:27:00,Meeting
-user20@company.com,user18@company.com,2023-01-18 10:24:00,Invoice
-user6@company.com,user1@company.com,2023-01-18 10:28:00,Invoice
-user17@company.com,user7@company.com,2023-01-18 07:37:00,Invoice
-user11@company.com,user4@company.com,2023-01-18 12:58:00,Invoice
-user17@company.com,user1@company.com,2023-01-18 16:17:00,Project Update
-user9@company.com,user17@company.com,2023-01-18 13:02:00,Invoice
-user9@company.com,user2@company.com,2023-01-18 16:52:00,Project Update
-user16@company.com,user15@company.com,2023-01-18 14:11:00,Confidential
-user18@company.com,user4@company.com,2023-01-18 07:23:00,Project Update
-user20@company.com,user5@company.com,2023-01-18 18:47:00,Meeting
-user5@company.com,user3@company.com,2023-01-18 13:53:00,Project Update
-user2@company.com,user16@company.com,2023-01-18 17:45:00,Project Update
-user11@company.com,user4@company.com,2023-01-18 15:17:00,Meeting
-user20@company.com,user1@company.com,2023-01-18 12:53:00,Invoice
-user6@company.com,user20@company.com,2023-01-18 18:23:00,Request
-user1@company.com,user14@company.com,2023-01-18 13:53:00,Project Update
-user3@company.com,user8@company.com,2023-01-18 19:32:00,Meeting
-user9@company.com,user3@company.com,2023-01-18 09:28:00,Project Update
-user9@company.com,user7@company.com,2023-01-18 18:32:00,Confidential
-user6@company.com,user1@company.com,2023-01-18 11:17:00,Request
-user12@company.com,user4@company.com,2023-01-18 12:29:00,Request
-user3@company.com,user20@company.com,2023-01-18 14:05:00,Project Update
-user3@company.com,user7@company.com,2023-01-18 18:05:00,Meeting
-user11@company.com,user20@company.com,2023-01-18 17:01:00,Meeting
-user1@company.com,user8@company.com,2023-01-18 17:23:00,Confidential
-user3@company.com,user9@company.com,2023-01-18 11:53:00,Meeting
-user5@company.com,user11@company.com,2023-01-18 07:24:00,Invoice
-user6@company.com,user10@company.com,2023-01-18 09:36:00,Invoice
-user14@company.com,user8@company.com,2023-01-18 10:17:00,Meeting
-user6@company.com,user11@company.com,2023-01-18 11:44:00,Confidential
-user9@company.com,user3@company.com,2023-01-18 14:22:00,Request
-user12@company.com,user18@company.com,2023-01-19 14:53:00,Meeting
-user2@company.com,user20@company.com,2023-01-19 13:09:00,Request
-user19@company.com,user7@company.com,2023-01-19 18:27:00,Invoice
-user10@company.com,user7@company.com,2023-01-19 12:44:00,Request
-user18@company.com,user9@company.com,2023-01-19 08:32:00,Meeting
-user9@company.com,user7@company.com,2023-01-19 14:16:00,Project Update
-user4@company.com,user18@company.com,2023-01-19 17:40:00,Meeting
-user16@company.com,user5@company.com,2023-01-19 14:37:00,Invoice
-user12@company.com,user20@company.com,2023-01-19 13:42:00,Request
-user2@company.com,user12@company.com,2023-01-19 18:06:00,Invoice
-user1@company.com,user7@company.com,2023-01-19 13:30:00,Invoice
-user11@company.com,user4@company.com,2023-01-19 09:58:00,Invoice
-user10@company.com,user6@company.com,2023-01-19 14:34:00,Meeting
-user1@company.com,user16@company.com,2023-01-19 19:39:00,Confidential
-user19@company.com,user20@company.com,2023-01-19 18:27:00,Confidential
-user16@company.com,user8@company.com,2023-01-19 11:46:00,Invoice
-user20@company.com,user11@company.com,2023-01-19 14:43:00,Confidential
-user10@company.com,user2@company.com,2023-01-19 10:48:00,Request
-user4@company.com,user15@company.com,2023-01-19 13:49:00,Invoice
-user19@company.com,user13@company.com,2023-01-19 16:01:00,Meeting
-user17@company.com,user6@company.com,2023-01-19 11:56:00,Request
-user17@company.com,user7@company.com,2023-01-19 16:48:00,Meeting
-user5@company.com,user12@company.com,2023-01-19 19:03:00,Project Update
-user10@company.com,user5@company.com,2023-01-19 19:22:00,Confidential
-user13@company.com,user6@company.com,2023-01-19 14:00:00,Meeting
-user7@company.com,user6@company.com,2023-01-19 11:19:00,Project Update
-user6@company.com,user9@company.com,2023-01-19 10:27:00,Project Update
-user8@company.com,user5@company.com,2023-01-19 17:35:00,Invoice
-user1@company.com,user17@company.com,2023-01-19 09:22:00,Project Update
-user16@company.com,user19@company.com,2023-01-19 17:25:00,Meeting
-user16@company.com,user13@company.com,2023-01-19 14:45:00,Meeting
-user4@company.com,user14@company.com,2023-01-19 09:20:00,Meeting
-user13@company.com,user11@company.com,2023-01-19 11:52:00,Confidential
-user20@company.com,user13@company.com,2023-01-19 15:04:00,Invoice
-user16@company.com,user20@company.com,2023-01-19 07:14:00,Request
-user6@company.com,user9@company.com,2023-01-19 12:23:00,Invoice
-user17@company.com,user1@company.com,2023-01-19 16:38:00,Confidential
-user3@company.com,user9@company.com,2023-01-19 09:31:00,Meeting
-user2@company.com,user8@company.com,2023-01-19 11:27:00,Project Update
-user11@company.com,user14@company.com,2023-01-19 17:11:00,Confidential
-user5@company.com,user11@company.com,2023-01-19 11:24:00,Confidential
-user9@company.com,user15@company.com,2023-01-20 09:10:00,Confidential
-user17@company.com,user4@company.com,2023-01-20 14:51:00,Project Update
-user12@company.com,user4@company.com,2023-01-20 17:55:00,Confidential
-user1@company.com,user7@company.com,2023-01-20 12:08:00,Request
-user17@company.com,user13@company.com,2023-01-20 17:29:00,Project Update
-user16@company.com,user13@company.com,2023-01-20 13:49:00,Project Update
-user10@company.com,user15@company.com,2023-01-20 11:47:00,Project Update
-user20@company.com,user15@company.com,2023-01-20 15:23:00,Confidential
-user11@company.com,user19@company.com,2023-01-20 12:07:00,Meeting
-user14@company.com,user19@company.com,2023-01-20 19:24:00,Project Update
-user5@company.com,user1@company.com,2023-01-20 12:59:00,Request
-user9@company.com,user7@company.com,2023-01-20 15:52:00,Request
-user15@company.com,user14@company.com,2023-01-20 07:29:00,Invoice
-user2@company.com,user5@company.com,2023-01-20 14:29:00,Invoice
-user2@company.com,user13@company.com,2023-01-20 11:27:00,Invoice
-user10@company.com,user1@company.com,2023-01-20 15:17:00,Meeting
-user10@company.com,user13@company.com,2023-01-20 13:01:00,Confidential
-user11@company.com,user10@company.com,2023-01-20 17:02:00,Request
-user4@company.com,user13@company.com,2023-01-20 18:02:00,Request
-user13@company.com,user8@company.com,2023-01-20 09:05:00,Request
-user4@company.com,user6@company.com,2023-01-20 18:09:00,Confidential
-user14@company.com,user9@company.com,2023-01-20 12:29:00,Request
-user8@company.com,user18@company.com,2023-01-20 16:29:00,Project Update
-user3@company.com,user12@company.com,2023-01-20 12:02:00,Meeting
-user20@company.com,user4@company.com,2023-01-20 13:32:00,Project Update
-user11@company.com,user10@company.com,2023-01-20 13:25:00,Project Update
-user6@company.com,user10@company.com,2023-01-20 18:41:00,Project Update
-user14@company.com,user4@company.com,2023-01-20 19:12:00,Request
-user9@company.com,user11@company.com,2023-01-20 16:32:00,Request
-user8@company.com,user2@company.com,2023-01-20 12:36:00,Confidential
-user7@company.com,user15@company.com,2023-01-20 11:47:00,Meeting
-user17@company.com,user2@company.com,2023-01-21 16:25:00,Meeting
-user10@company.com,user9@company.com,2023-01-21 07:26:00,Meeting
-user1@company.com,user15@company.com,2023-01-21 17:08:00,Invoice
-user9@company.com,user16@company.com,2023-01-21 16:50:00,Invoice
-user4@company.com,user9@company.com,2023-01-21 10:01:00,Invoice
-user8@company.com,user3@company.com,2023-01-21 16:18:00,Request
-user15@company.com,user20@company.com,2023-01-21 13:40:00,Request
-user11@company.com,user19@company.com,2023-01-21 13:30:00,Request
-user1@company.com,user12@company.com,2023-01-21 12:20:00,Invoice
-user15@company.com,user5@company.com,2023-01-21 14:54:00,Confidential
-user7@company.com,user19@company.com,2023-01-21 18:10:00,Confidential
-user9@company.com,user14@company.com,2023-01-21 07:42:00,Request
-user3@company.com,user17@company.com,2023-01-21 15:22:00,Project Update
-user7@company.com,user18@company.com,2023-01-21 12:19:00,Invoice
-user11@company.com,user16@company.com,2023-01-21 17:29:00,Project Update
-user5@company.com,user20@company.com,2023-01-21 09:39:00,Invoice
-user19@company.com,user14@company.com,2023-01-21 13:48:00,Project Update
-user10@company.com,user19@company.com,2023-01-21 18:31:00,Meeting
-user13@company.com,user19@company.com,2023-01-21 09:24:00,Request
-user4@company.com,user5@company.com,2023-01-21 13:13:00,Meeting
-user4@company.com,user20@company.com,2023-01-21 11:11:00,Meeting
-user13@company.com,user19@company.com,2023-01-21 13:22:00,Meeting
-user14@company.com,user9@company.com,2023-01-21 12:49:00,Invoice
-user4@company.com,user12@company.com,2023-01-21 15:34:00,Request
-user13@company.com,user8@company.com,2023-01-21 13:31:00,Confidential
-user10@company.com,user16@company.com,2023-01-21 09:59:00,Meeting
-user13@company.com,user10@company.com,2023-01-21 07:34:00,Invoice
-user15@company.com,user6@company.com,2023-01-21 17:58:00,Project Update
-user13@company.com,user20@company.com,2023-01-21 17:26:00,Confidential
-user14@company.com,user7@company.com,2023-01-21 17:01:00,Request
-user8@company.com,user5@company.com,2023-01-21 16:39:00,Request
-user3@company.com,user20@company.com,2023-01-21 18:26:00,Project Update
-user11@company.com,user8@company.com,2023-01-21 09:36:00,Confidential
-user3@company.com,user13@company.com,2023-01-21 07:47:00,Request
-user13@company.com,user19@company.com,2023-01-21 15:55:00,Meeting
-user6@company.com,user16@company.com,2023-01-21 12:46:00,Meeting
-user6@company.com,user17@company.com,2023-01-21 18:58:00,Meeting
-user11@company.com,user5@company.com,2023-01-21 11:04:00,Project Update
-user19@company.com,user15@company.com,2023-01-22 14:15:00,Request
-user15@company.com,user8@company.com,2023-01-22 19:11:00,Confidential
-user17@company.com,user4@company.com,2023-01-22 19:38:00,Invoice
-user6@company.com,user9@company.com,2023-01-22 14:46:00,Project Update
-user1@company.com,user3@company.com,2023-01-22 17:43:00,Confidential
-user17@company.com,user16@company.com,2023-01-22 13:04:00,Confidential
-user9@company.com,user19@company.com,2023-01-22 08:45:00,Request
-user18@company.com,user1@company.com,2023-01-22 14:30:00,Project Update
-user10@company.com,user14@company.com,2023-01-22 18:49:00,Project Update
-user12@company.com,user14@company.com,2023-01-22 18:59:00,Request
-user15@company.com,user14@company.com,2023-01-22 19:07:00,Project Update
-user5@company.com,user10@company.com,2023-01-22 19:52:00,Request
-user4@company.com,user7@company.com,2023-01-22 12:26:00,Invoice
-user5@company.com,user9@company.com,2023-01-22 19:30:00,Meeting
-user9@company.com,user4@company.com,2023-01-22 12:41:00,Project Update
-user15@company.com,user17@company.com,2023-01-22 19:15:00,Invoice
-user11@company.com,user10@company.com,2023-01-22 18:28:00,Invoice
-user15@company.com,user9@company.com,2023-01-22 16:17:00,Request
-user2@company.com,user6@company.com,2023-01-22 09:33:00,Invoice
-user1@company.com,user9@company.com,2023-01-22 12:36:00,Invoice
-user10@company.com,user11@company.com,2023-01-22 18:10:00,Request
-user10@company.com,user17@company.com,2023-01-22 18:28:00,Invoice
-user5@company.com,user6@company.com,2023-01-22 09:38:00,Invoice
-user13@company.com,user9@company.com,2023-01-22 17:14:00,Project Update
-user7@company.com,user20@company.com,2023-01-22 11:09:00,Request
-user1@company.com,user10@company.com,2023-01-22 12:46:00,Request
-user17@company.com,user13@company.com,2023-01-22 14:39:00,Meeting
-user12@company.com,user5@company.com,2023-01-22 16:54:00,Request
-user11@company.com,user18@company.com,2023-01-22 12:24:00,Confidential
-user6@company.com,user18@company.com,2023-01-22 14:11:00,Confidential
-user13@company.com,user1@company.com,2023-01-22 17:04:00,Invoice
-user8@company.com,user11@company.com,2023-01-22 10:14:00,Meeting
-user9@company.com,user4@company.com,2023-01-22 17:12:00,Invoice
-user16@company.com,user15@company.com,2023-01-22 16:58:00,Project Update
-user17@company.com,user8@company.com,2023-01-22 18:12:00,Invoice
-user2@company.com,user14@company.com,2023-01-22 17:06:00,Invoice
-user3@company.com,user10@company.com,2023-01-23 15:34:00,Request
-user3@company.com,user2@company.com,2023-01-23 14:36:00,Request
-user8@company.com,user9@company.com,2023-01-23 11:51:00,Meeting
-user8@company.com,user9@company.com,2023-01-23 18:45:00,Confidential
-user6@company.com,user2@company.com,2023-01-23 16:17:00,Request
-user9@company.com,user3@company.com,2023-01-23 18:12:00,Project Update
-user5@company.com,user18@company.com,2023-01-23 11:03:00,Meeting
-user8@company.com,user9@company.com,2023-01-23 16:48:00,Request
-user16@company.com,user15@company.com,2023-01-23 08:34:00,Project Update
-user11@company.com,user3@company.com,2023-01-23 10:30:00,Project Update
-user15@company.com,user3@company.com,2023-01-23 14:12:00,Project Update
-user18@company.com,user20@company.com,2023-01-23 10:38:00,Confidential
-user10@company.com,user20@company.com,2023-01-23 07:37:00,Confidential
-user4@company.com,user16@company.com,2023-01-23 19:41:00,Meeting
-user19@company.com,user15@company.com,2023-01-23 07:16:00,Confidential
-user20@company.com,user9@company.com,2023-01-23 14:40:00,Meeting
-user11@company.com,user18@company.com,2023-01-23 14:32:00,Invoice
-user10@company.com,user9@company.com,2023-01-23 15:15:00,Invoice
-user9@company.com,user19@company.com,2023-01-23 15:19:00,Confidential
-user4@company.com,user7@company.com,2023-01-23 14:00:00,Invoice
-user17@company.com,user16@company.com,2023-01-23 14:10:00,Meeting
-user3@company.com,user15@company.com,2023-01-23 17:19:00,Project Update
-user15@company.com,user11@company.com,2023-01-23 17:43:00,Request
-user6@company.com,user8@company.com,2023-01-23 19:06:00,Meeting
-user7@company.com,user11@company.com,2023-01-23 15:19:00,Invoice
-user17@company.com,user16@company.com,2023-01-23 08:43:00,Invoice
-user20@company.com,user7@company.com,2023-01-23 16:43:00,Meeting
-user11@company.com,user6@company.com,2023-01-23 10:49:00,Confidential
-user6@company.com,user7@company.com,2023-01-23 16:42:00,Meeting
-user11@company.com,user18@company.com,2023-01-23 14:41:00,Request
-user14@company.com,user9@company.com,2023-01-23 10:59:00,Invoice
-user16@company.com,user10@company.com,2023-01-23 12:09:00,Invoice
-user11@company.com,user13@company.com,2023-01-23 18:20:00,Confidential
-user10@company.com,user15@company.com,2023-01-23 16:25:00,Confidential
-user1@company.com,user14@company.com,2023-01-23 07:26:00,Invoice
-user5@company.com,user16@company.com,2023-01-23 19:17:00,Project Update
-user7@company.com,user8@company.com,2023-01-23 17:45:00,Invoice
-user10@company.com,user13@company.com,2023-01-23 07:20:00,Confidential
-user13@company.com,user11@company.com,2023-01-23 15:35:00,Meeting
-user7@company.com,user18@company.com,2023-01-23 14:54:00,Invoice
-user4@company.com,user3@company.com,2023-01-23 10:10:00,Invoice
-user16@company.com,user20@company.com,2023-01-23 14:02:00,Confidential
-user16@company.com,user8@company.com,2023-01-23 11:38:00,Request
-user13@company.com,user2@company.com,2023-01-23 08:03:00,Invoice
-user9@company.com,user19@company.com,2023-01-23 12:28:00,Invoice
-user4@company.com,user17@company.com,2023-01-23 09:56:00,Project Update
-user14@company.com,user5@company.com,2023-01-24 09:37:00,Invoice
-user19@company.com,user7@company.com,2023-01-24 15:05:00,Confidential
-user8@company.com,user12@company.com,2023-01-24 16:34:00,Invoice
-user18@company.com,user17@company.com,2023-01-24 11:44:00,Project Update
-user5@company.com,user3@company.com,2023-01-24 19:44:00,Invoice
-user12@company.com,user16@company.com,2023-01-24 18:56:00,Meeting
-user6@company.com,user12@company.com,2023-01-24 14:14:00,Confidential
-user12@company.com,user11@company.com,2023-01-24 10:43:00,Invoice
-user9@company.com,user1@company.com,2023-01-24 09:07:00,Confidential
-user14@company.com,user13@company.com,2023-01-24 19:31:00,Project Update
-user17@company.com,user2@company.com,2023-01-24 15:23:00,Project Update
-user19@company.com,user14@company.com,2023-01-24 07:32:00,Invoice
-user18@company.com,user16@company.com,2023-01-24 11:36:00,Invoice
-user3@company.com,user4@company.com,2023-01-24 16:05:00,Request
-user4@company.com,user19@company.com,2023-01-24 09:51:00,Request
-user3@company.com,user20@company.com,2023-01-24 14:39:00,Meeting
-user3@company.com,user15@company.com,2023-01-24 11:29:00,Confidential
-user5@company.com,user12@company.com,2023-01-24 08:11:00,Request
-user11@company.com,user16@company.com,2023-01-24 15:49:00,Confidential
-user1@company.com,user14@company.com,2023-01-24 16:18:00,Project Update
-user20@company.com,user13@company.com,2023-01-24 07:00:00,Meeting
-user11@company.com,user15@company.com,2023-01-24 09:16:00,Meeting
-user19@company.com,user11@company.com,2023-01-24 15:29:00,Meeting
-user19@company.com,user12@company.com,2023-01-24 18:55:00,Request
-user5@company.com,user8@company.com,2023-01-24 19:09:00,Meeting
-user10@company.com,user6@company.com,2023-01-24 08:01:00,Request
-user20@company.com,user2@company.com,2023-01-24 19:08:00,Request
-user12@company.com,user3@company.com,2023-01-24 12:55:00,Invoice
-user8@company.com,user7@company.com,2023-01-24 10:19:00,Meeting
-user14@company.com,user9@company.com,2023-01-24 10:59:00,Meeting
-user12@company.com,user1@company.com,2023-01-24 09:56:00,Confidential
-user4@company.com,user14@company.com,2023-01-24 07:28:00,Meeting
-user13@company.com,user2@company.com,2023-01-24 14:28:00,Confidential
-user7@company.com,user8@company.com,2023-01-24 19:24:00,Request
-user4@company.com,user3@company.com,2023-01-24 09:32:00,Request
-user17@company.com,user4@company.com,2023-01-24 09:48:00,Meeting
-user4@company.com,user17@company.com,2023-01-24 18:38:00,Invoice
-user11@company.com,user15@company.com,2023-01-24 10:13:00,Project Update
-user17@company.com,user12@company.com,2023-01-24 14:16:00,Request
-user4@company.com,user16@company.com,2023-01-24 07:00:00,Confidential
-user14@company.com,user13@company.com,2023-01-25 08:22:00,Invoice
-user10@company.com,user3@company.com,2023-01-25 13:54:00,Invoice
-user8@company.com,user3@company.com,2023-01-25 17:41:00,Confidential
-user16@company.com,user1@company.com,2023-01-25 11:46:00,Invoice
-user2@company.com,user6@company.com,2023-01-25 10:11:00,Request
-user1@company.com,user6@company.com,2023-01-25 15:09:00,Meeting
-user16@company.com,user2@company.com,2023-01-25 07:38:00,Meeting
-user10@company.com,user13@company.com,2023-01-25 16:26:00,Meeting
-user14@company.com,user6@company.com,2023-01-25 09:59:00,Request
-user5@company.com,user7@company.com,2023-01-25 12:56:00,Project Update
-user6@company.com,user1@company.com,2023-01-25 14:13:00,Invoice
-user13@company.com,user12@company.com,2023-01-25 11:39:00,Invoice
-user1@company.com,user2@company.com,2023-01-25 12:01:00,Confidential
-user2@company.com,user6@company.com,2023-01-25 13:02:00,Request
-user13@company.com,user18@company.com,2023-01-25 09:10:00,Project Update
-user1@company.com,user13@company.com,2023-01-25 10:05:00,Confidential
-user3@company.com,user5@company.com,2023-01-25 14:29:00,Confidential
-user18@company.com,user15@company.com,2023-01-25 09:54:00,Request
-user1@company.com,user11@company.com,2023-01-25 14:30:00,Invoice
-user5@company.com,user12@company.com,2023-01-25 17:34:00,Invoice
-user20@company.com,user4@company.com,2023-01-25 14:31:00,Request
-user7@company.com,user5@company.com,2023-01-25 10:32:00,Meeting
-user5@company.com,user9@company.com,2023-01-25 17:05:00,Project Update
-user13@company.com,user10@company.com,2023-01-25 16:06:00,Meeting
-user8@company.com,user10@company.com,2023-01-25 09:46:00,Invoice
-user11@company.com,user16@company.com,2023-01-25 17:37:00,Request
-user17@company.com,user20@company.com,2023-01-25 11:48:00,Meeting
-user11@company.com,user15@company.com,2023-01-25 12:42:00,Meeting
-user19@company.com,user2@company.com,2023-01-25 18:57:00,Confidential
-user2@company.com,user8@company.com,2023-01-25 09:00:00,Meeting
-user2@company.com,user9@company.com,2023-01-25 09:25:00,Invoice
-user1@company.com,user20@company.com,2023-01-25 14:30:00,Invoice
-user7@company.com,user20@company.com,2023-01-25 13:28:00,Meeting
-user15@company.com,user9@company.com,2023-01-25 15:28:00,Project Update
-user9@company.com,user18@company.com,2023-01-25 12:21:00,Meeting
-user9@company.com,user12@company.com,2023-01-25 19:55:00,Confidential
-user18@company.com,user15@company.com,2023-01-25 17:06:00,Invoice
-user17@company.com,user9@company.com,2023-01-25 08:50:00,Invoice
-user14@company.com,user1@company.com,2023-01-25 15:08:00,Project Update
-user8@company.com,user16@company.com,2023-01-25 08:07:00,Request
-user10@company.com,user5@company.com,2023-01-25 12:19:00,Confidential
-user14@company.com,user19@company.com,2023-01-25 08:55:00,Request
-user6@company.com,user14@company.com,2023-01-25 15:12:00,Meeting
-user8@company.com,user1@company.com,2023-01-25 10:46:00,Invoice
-user17@company.com,user5@company.com,2023-01-25 16:55:00,Request
-user17@company.com,user2@company.com,2023-01-25 19:34:00,Invoice
-user18@company.com,user8@company.com,2023-01-25 18:33:00,Meeting
-user12@company.com,user6@company.com,2023-01-25 08:43:00,Meeting
-user20@company.com,user8@company.com,2023-01-25 19:45:00,Meeting
-user18@company.com,user14@company.com,2023-01-25 10:17:00,Project Update
-user13@company.com,user10@company.com,2023-01-25 13:57:00,Request
-user14@company.com,user17@company.com,2023-01-25 14:20:00,Meeting
-user10@company.com,user1@company.com,2023-01-25 08:16:00,Request
-user10@company.com,user7@company.com,2023-01-25 18:39:00,Request
-user3@company.com,user2@company.com,2023-01-25 19:26:00,Meeting
-user16@company.com,user6@company.com,2023-01-26 19:51:00,Meeting
-user13@company.com,user6@company.com,2023-01-26 17:26:00,Confidential
-user19@company.com,user7@company.com,2023-01-26 10:53:00,Invoice
-user3@company.com,user9@company.com,2023-01-26 11:08:00,Confidential
-user4@company.com,user20@company.com,2023-01-26 17:09:00,Meeting
-user15@company.com,user5@company.com,2023-01-26 17:17:00,Invoice
-user1@company.com,user5@company.com,2023-01-26 15:19:00,Request
-user4@company.com,user17@company.com,2023-01-26 10:42:00,Confidential
-user10@company.com,user4@company.com,2023-01-26 15:47:00,Request
-user15@company.com,user5@company.com,2023-01-26 08:56:00,Invoice
-user9@company.com,user2@company.com,2023-01-26 13:53:00,Invoice
-user4@company.com,user16@company.com,2023-01-26 13:37:00,Meeting
-user16@company.com,user10@company.com,2023-01-26 10:33:00,Project Update
-user3@company.com,user13@company.com,2023-01-26 10:55:00,Confidential
-user14@company.com,user15@company.com,2023-01-26 07:40:00,Project Update
-user9@company.com,user10@company.com,2023-01-26 11:40:00,Request
-user11@company.com,user15@company.com,2023-01-26 17:53:00,Invoice
-user12@company.com,user3@company.com,2023-01-26 07:06:00,Confidential
-user8@company.com,user20@company.com,2023-01-26 14:14:00,Request
-user14@company.com,user9@company.com,2023-01-26 08:49:00,Confidential
-user18@company.com,user20@company.com,2023-01-26 13:38:00,Request
-user13@company.com,user2@company.com,2023-01-26 16:06:00,Request
-user4@company.com,user20@company.com,2023-01-26 08:07:00,Meeting
-user12@company.com,user20@company.com,2023-01-26 17:45:00,Request
-user14@company.com,user13@company.com,2023-01-26 18:47:00,Project Update
-user12@company.com,user16@company.com,2023-01-26 14:36:00,Request
-user2@company.com,user14@company.com,2023-01-26 19:40:00,Confidential
-user1@company.com,user8@company.com,2023-01-26 16:11:00,Project Update
-user11@company.com,user4@company.com,2023-01-26 11:58:00,Confidential
-user1@company.com,user16@company.com,2023-01-26 11:22:00,Invoice
-user12@company.com,user8@company.com,2023-01-26 11:28:00,Project Update
-user11@company.com,user16@company.com,2023-01-26 18:40:00,Invoice
-user6@company.com,user8@company.com,2023-01-26 15:49:00,Request
-user11@company.com,user14@company.com,2023-01-26 19:22:00,Meeting
-user16@company.com,user3@company.com,2023-01-27 12:22:00,Request
-user18@company.com,user8@company.com,2023-01-27 12:53:00,Invoice
-user4@company.com,user3@company.com,2023-01-27 17:25:00,Invoice
-user20@company.com,user16@company.com,2023-01-27 17:11:00,Confidential
-user7@company.com,user10@company.com,2023-01-27 18:31:00,Invoice
-user11@company.com,user16@company.com,2023-01-27 12:48:00,Meeting
-user6@company.com,user12@company.com,2023-01-27 07:07:00,Meeting
-user19@company.com,user10@company.com,2023-01-27 15:44:00,Request
-user10@company.com,user19@company.com,2023-01-27 15:11:00,Confidential
-user20@company.com,user3@company.com,2023-01-27 10:05:00,Project Update
-user20@company.com,user13@company.com,2023-01-27 11:09:00,Invoice
-user18@company.com,user12@company.com,2023-01-27 13:08:00,Confidential
-user4@company.com,user11@company.com,2023-01-27 16:36:00,Project Update
-user11@company.com,user8@company.com,2023-01-27 14:52:00,Project Update
-user8@company.com,user19@company.com,2023-01-27 09:42:00,Invoice
-user1@company.com,user17@company.com,2023-01-27 10:53:00,Meeting
-user8@company.com,user9@company.com,2023-01-27 14:41:00,Meeting
-user5@company.com,user1@company.com,2023-01-27 11:15:00,Project Update
-user20@company.com,user16@company.com,2023-01-27 14:26:00,Request
-user18@company.com,user20@company.com,2023-01-27 10:26:00,Meeting
-user17@company.com,user20@company.com,2023-01-27 13:40:00,Request
-user13@company.com,user9@company.com,2023-01-27 18:50:00,Invoice
-user9@company.com,user15@company.com,2023-01-27 12:23:00,Meeting
-user11@company.com,user19@company.com,2023-01-27 12:04:00,Meeting
-user11@company.com,user8@company.com,2023-01-27 19:34:00,Request
-user5@company.com,user4@company.com,2023-01-27 19:32:00,Confidential
-user18@company.com,user11@company.com,2023-01-27 08:51:00,Request
-user8@company.com,user13@company.com,2023-01-27 18:44:00,Request
-user8@company.com,user16@company.com,2023-01-27 11:36:00,Project Update
-user15@company.com,user16@company.com,2023-01-27 14:37:00,Confidential
-user3@company.com,user7@company.com,2023-01-27 07:35:00,Confidential
-user18@company.com,user2@company.com,2023-01-27 12:30:00,Meeting
-user3@company.com,user13@company.com,2023-01-27 08:46:00,Invoice
-user19@company.com,user9@company.com,2023-01-27 18:01:00,Request
-user16@company.com,user14@company.com,2023-01-27 18:48:00,Meeting
-user13@company.com,user7@company.com,2023-01-27 17:28:00,Invoice
-user18@company.com,user10@company.com,2023-01-27 12:14:00,Request
-user17@company.com,user14@company.com,2023-01-27 09:49:00,Request
-user19@company.com,user11@company.com,2023-01-27 07:39:00,Project Update
-user12@company.com,user20@company.com,2023-01-27 08:49:00,Project Update
-user20@company.com,user3@company.com,2023-01-27 15:26:00,Meeting
-user7@company.com,user9@company.com,2023-01-27 16:49:00,Meeting
-user6@company.com,user1@company.com,2023-01-27 17:59:00,Confidential
-user4@company.com,user12@company.com,2023-01-27 08:06:00,Confidential
-user19@company.com,user13@company.com,2023-01-27 19:26:00,Confidential
-user16@company.com,user5@company.com,2023-01-27 12:11:00,Project Update
-user10@company.com,user13@company.com,2023-01-27 09:45:00,Confidential
-user9@company.com,user17@company.com,2023-01-27 08:11:00,Invoice
-user13@company.com,user7@company.com,2023-01-27 10:22:00,Project Update
-user11@company.com,user16@company.com,2023-01-27 19:06:00,Request
-user9@company.com,user1@company.com,2023-01-27 16:03:00,Request
-user2@company.com,user13@company.com,2023-01-27 08:10:00,Project Update
-user17@company.com,user1@company.com,2023-01-27 07:20:00,Confidential
-user10@company.com,user1@company.com,2023-01-27 19:57:00,Request
-user19@company.com,user12@company.com,2023-01-27 08:11:00,Meeting
-user20@company.com,user16@company.com,2023-01-27 09:34:00,Meeting
-user12@company.com,user4@company.com,2023-01-27 17:58:00,Meeting
-user12@company.com,user20@company.com,2023-01-28 09:57:00,Confidential
-user6@company.com,user18@company.com,2023-01-28 09:52:00,Confidential
-user1@company.com,user3@company.com,2023-01-28 15:56:00,Project Update
-user10@company.com,user11@company.com,2023-01-28 08:22:00,Meeting
-user19@company.com,user17@company.com,2023-01-28 09:57:00,Project Update
-user16@company.com,user7@company.com,2023-01-28 16:09:00,Request
-user11@company.com,user16@company.com,2023-01-28 17:35:00,Confidential
-user15@company.com,user4@company.com,2023-01-28 17:35:00,Project Update
-user11@company.com,user8@company.com,2023-01-28 12:09:00,Meeting
-user16@company.com,user7@company.com,2023-01-28 19:25:00,Project Update
-user12@company.com,user2@company.com,2023-01-28 14:51:00,Request
-user4@company.com,user18@company.com,2023-01-28 08:42:00,Invoice
-user17@company.com,user20@company.com,2023-01-28 16:44:00,Request
-user17@company.com,user13@company.com,2023-01-28 19:34:00,Meeting
-user10@company.com,user12@company.com,2023-01-28 09:28:00,Meeting
-user10@company.com,user15@company.com,2023-01-28 13:27:00,Confidential
-user3@company.com,user17@company.com,2023-01-28 07:31:00,Project Update
-user11@company.com,user19@company.com,2023-01-28 14:39:00,Confidential
-user10@company.com,user17@company.com,2023-01-28 19:49:00,Invoice
-user2@company.com,user18@company.com,2023-01-28 07:12:00,Project Update
-user10@company.com,user20@company.com,2023-01-28 18:57:00,Request
-user18@company.com,user6@company.com,2023-01-28 17:20:00,Project Update
-user18@company.com,user1@company.com,2023-01-28 07:19:00,Confidential
-user7@company.com,user13@company.com,2023-01-28 15:03:00,Confidential
-user17@company.com,user18@company.com,2023-01-28 09:32:00,Invoice
-user2@company.com,user8@company.com,2023-01-28 08:29:00,Meeting
-user8@company.com,user12@company.com,2023-01-28 08:45:00,Meeting
-user16@company.com,user7@company.com,2023-01-28 16:40:00,Request
-user1@company.com,user3@company.com,2023-01-28 13:13:00,Project Update
-user10@company.com,user1@company.com,2023-01-28 10:42:00,Invoice
-user6@company.com,user14@company.com,2023-01-28 10:23:00,Confidential
-user2@company.com,user6@company.com,2023-01-28 09:38:00,Meeting
-user20@company.com,user9@company.com,2023-01-28 13:43:00,Request
-user10@company.com,user7@company.com,2023-01-28 17:47:00,Invoice
-user14@company.com,user1@company.com,2023-01-28 13:52:00,Confidential
-user13@company.com,user9@company.com,2023-01-28 10:52:00,Confidential
-user9@company.com,user1@company.com,2023-01-28 17:44:00,Confidential
-user2@company.com,user16@company.com,2023-01-28 09:42:00,Meeting
-user3@company.com,user5@company.com,2023-01-28 08:10:00,Confidential
-user3@company.com,user7@company.com,2023-01-28 15:20:00,Meeting
-user9@company.com,user14@company.com,2023-01-28 11:34:00,Invoice
-user10@company.com,user20@company.com,2023-01-28 11:06:00,Project Update
-user13@company.com,user7@company.com,2023-01-28 08:35:00,Confidential
-user7@company.com,user5@company.com,2023-01-28 15:02:00,Confidential
-user16@company.com,user4@company.com,2023-01-28 08:14:00,Project Update
-user13@company.com,user6@company.com,2023-01-28 08:48:00,Project Update
-user8@company.com,user15@company.com,2023-01-28 16:23:00,Confidential
-user5@company.com,user16@company.com,2023-01-28 16:49:00,Project Update
-user17@company.com,user7@company.com,2023-01-28 19:13:00,Invoice
-user19@company.com,user1@company.com,2023-01-29 09:21:00,Invoice
-user6@company.com,user13@company.com,2023-01-29 14:12:00,Project Update
-user13@company.com,user14@company.com,2023-01-29 09:18:00,Request
-user3@company.com,user9@company.com,2023-01-29 09:40:00,Meeting
-user11@company.com,user16@company.com,2023-01-29 07:55:00,Confidential
-user3@company.com,user9@company.com,2023-01-29 16:33:00,Invoice
-user18@company.com,user6@company.com,2023-01-29 09:35:00,Invoice
-user2@company.com,user5@company.com,2023-01-29 17:04:00,Confidential
-user17@company.com,user19@company.com,2023-01-29 07:39:00,Meeting
-user11@company.com,user13@company.com,2023-01-29 07:09:00,Project Update
-user8@company.com,user1@company.com,2023-01-29 13:00:00,Request
-user2@company.com,user14@company.com,2023-01-29 19:36:00,Project Update
-user8@company.com,user2@company.com,2023-01-29 16:34:00,Project Update
-user1@company.com,user17@company.com,2023-01-29 16:41:00,Confidential
-user10@company.com,user14@company.com,2023-01-29 14:58:00,Meeting
-user16@company.com,user9@company.com,2023-01-29 12:40:00,Confidential
-user16@company.com,user5@company.com,2023-01-29 14:34:00,Invoice
-user8@company.com,user5@company.com,2023-01-29 11:40:00,Meeting
-user13@company.com,user9@company.com,2023-01-29 09:23:00,Project Update
-user14@company.com,user10@company.com,2023-01-29 09:02:00,Confidential
-user14@company.com,user19@company.com,2023-01-29 10:25:00,Meeting
-user12@company.com,user7@company.com,2023-01-29 13:26:00,Confidential
-user15@company.com,user16@company.com,2023-01-29 14:24:00,Confidential
-user12@company.com,user11@company.com,2023-01-29 12:42:00,Confidential
-user5@company.com,user18@company.com,2023-01-29 10:15:00,Meeting
-user7@company.com,user20@company.com,2023-01-29 10:55:00,Request
-user12@company.com,user16@company.com,2023-01-29 15:55:00,Confidential
-user12@company.com,user10@company.com,2023-01-29 10:25:00,Meeting
-user16@company.com,user4@company.com,2023-01-29 15:41:00,Confidential
-user10@company.com,user15@company.com,2023-01-29 07:12:00,Meeting
-user11@company.com,user19@company.com,2023-01-29 09:42:00,Confidential
-user17@company.com,user14@company.com,2023-01-30 09:28:00,Project Update
-user7@company.com,user14@company.com,2023-01-30 16:42:00,Meeting
-user9@company.com,user20@company.com,2023-01-30 19:09:00,Confidential
-user19@company.com,user7@company.com,2023-01-30 09:26:00,Invoice
-user15@company.com,user8@company.com,2023-01-30 18:08:00,Confidential
-user11@company.com,user18@company.com,2023-01-30 18:40:00,Project Update
-user4@company.com,user3@company.com,2023-01-30 08:01:00,Project Update
-user2@company.com,user12@company.com,2023-01-30 08:20:00,Invoice
-user7@company.com,user5@company.com,2023-01-30 10:19:00,Project Update
-user12@company.com,user11@company.com,2023-01-30 16:57:00,Confidential
-user16@company.com,user11@company.com,2023-01-30 18:11:00,Invoice
-user10@company.com,user4@company.com,2023-01-30 19:35:00,Meeting
-user5@company.com,user7@company.com,2023-01-30 13:07:00,Request
-user20@company.com,user14@company.com,2023-01-30 09:35:00,Request
-user16@company.com,user9@company.com,2023-01-30 18:54:00,Meeting
-user4@company.com,user6@company.com,2023-01-30 14:06:00,Project Update
-user5@company.com,user14@company.com,2023-01-30 14:24:00,Confidential
-user6@company.com,user1@company.com,2023-01-30 16:44:00,Invoice
-user15@company.com,user20@company.com,2023-01-30 16:11:00,Confidential
-user1@company.com,user17@company.com,2023-01-30 17:36:00,Invoice
-user11@company.com,user3@company.com,2023-01-30 12:04:00,Meeting
-user5@company.com,user11@company.com,2023-01-30 17:25:00,Meeting
-user4@company.com,user8@company.com,2023-01-30 17:20:00,Invoice
-user3@company.com,user13@company.com,2023-01-30 16:51:00,Confidential
-user1@company.com,user20@company.com,2023-01-30 13:10:00,Invoice
-user9@company.com,user7@company.com,2023-01-30 15:17:00,Request
-user1@company.com,user17@company.com,2023-01-30 12:57:00,Meeting
-user2@company.com,user9@company.com,2023-01-30 18:19:00,Invoice
-user15@company.com,user14@company.com,2023-01-30 12:02:00,Invoice
-user15@company.com,user3@company.com,2023-01-30 12:35:00,Project Update
-user5@company.com,user1@company.com,2023-01-30 18:36:00,Project Update
-user10@company.com,user14@company.com,2023-01-30 10:57:00,Confidential
-user13@company.com,user14@company.com,2023-01-30 07:44:00,Invoice
-user13@company.com,user11@company.com,2023-01-30 12:51:00,Request
-user14@company.com,user15@company.com,2023-01-30 18:21:00,Meeting
-user12@company.com,user9@company.com,2023-01-30 15:12:00,Confidential
-user10@company.com,user9@company.com,2023-01-30 08:58:00,Confidential
-user3@company.com,user12@company.com,2023-01-30 15:57:00,Project Update
-user1@company.com,user6@company.com,2023-01-30 19:48:00,Project Update
-user8@company.com,user3@company.com,2023-01-30 09:23:00,Project Update
-user5@company.com,user20@company.com,2023-01-30 19:15:00,Project Update
-user3@company.com,user1@company.com,2023-01-30 18:00:00,Invoice
-user20@company.com,user3@company.com,2023-01-30 09:37:00,Confidential
-user11@company.com,user4@company.com,2023-01-30 16:07:00,Project Update
-user5@company.com,user8@company.com,2023-01-30 18:59:00,Project Update
-user6@company.com,user3@company.com,2023-01-30 18:05:00,Project Update
-user14@company.com,user8@company.com,2023-01-30 10:03:00,Project Update
-user13@company.com,user11@company.com,2023-01-30 17:33:00,Meeting
-user16@company.com,user7@company.com,2023-01-30 18:31:00,Request
-user6@company.com,user17@company.com,2023-01-30 11:46:00,Request
-user2@company.com,user16@company.com,2023-01-30 09:32:00,Project Update
-user3@company.com,user7@company.com,2023-01-30 10:16:00,Meeting
-user18@company.com,user20@company.com,2023-01-30 10:44:00,Project Update
-user3@company.com,user8@company.com,2023-01-30 09:54:00,Invoice
-user8@company.com,user6@company.com,2023-01-30 13:40:00,Request
-user10@company.com,user15@company.com,2023-01-30 15:40:00,Invoice
-user7@company.com,user15@company.com,2023-01-30 11:52:00,Invoice
-user8@company.com,user18@company.com,2023-01-30 07:41:00,Invoice
-user10@company.com,user6@company.com,2023-01-30 08:03:00,Project Update
+user,recipient,subject,has_attachment,attachment_size,timestamp
+user8,colleague@company.com,Subject_3861,True,12.87,2025-12-03 21:40:43
+user7,external@partner.com,Subject_5830,False,0.0,2025-12-03 20:15:43
+user12,colleague@company.com,Subject_6721,False,0.0,2025-12-03 18:07:43
+user14,personal@gmail.com,Subject_8176,False,0.0,2025-12-03 17:18:43
+user10,external@partner.com,Subject_4495,False,0.0,2025-12-03 13:07:43
+user7,external@partner.com,Subject_2082,False,0.0,2025-12-03 12:58:43
+user15,manager@company.com,Subject_9187,True,12.6,2025-12-03 11:32:43
+user7,manager@company.com,Subject_2217,False,0.0,2025-12-03 11:21:43
+user3,manager@company.com,Subject_5945,False,0.0,2025-12-03 11:00:43
+user9,external@partner.com,Subject_8107,True,18.67,2025-12-03 10:28:43
+user20,personal@gmail.com,Subject_4381,False,0.0,2025-12-03 07:35:43
+user15,manager@company.com,Subject_1405,False,0.0,2025-12-03 07:33:43
+user3,manager@company.com,Subject_7704,False,0.0,2025-12-03 05:44:43
+user20,manager@company.com,Subject_5066,True,2.48,2025-12-03 05:31:43
+user13,personal@gmail.com,Subject_4693,False,0.0,2025-12-03 04:48:43
+user4,manager@company.com,Subject_3296,False,0.0,2025-12-03 02:51:43
+user8,colleague@company.com,Subject_8580,False,0.0,2025-12-02 23:54:43
+user17,colleague@company.com,Subject_1909,True,19.67,2025-12-02 23:49:43
+user4,external@partner.com,Subject_9857,False,0.0,2025-12-02 23:35:43
+user15,external@partner.com,Subject_7391,False,0.0,2025-12-02 23:15:43
+user8,colleague@company.com,Subject_5094,False,0.0,2025-12-02 22:41:43
+user8,manager@company.com,Subject_4827,True,15.41,2025-12-02 22:08:43
+user17,colleague@company.com,Subject_8950,True,1.41,2025-12-02 20:50:43
+user14,external@partner.com,Subject_6398,False,0.0,2025-12-02 20:32:43
+user10,manager@company.com,Subject_7922,True,9.04,2025-12-02 18:46:43
+user16,personal@gmail.com,Subject_3823,False,0.0,2025-12-02 18:28:43
+user3,colleague@company.com,Subject_7873,False,0.0,2025-12-02 17:11:43
+user13,external@partner.com,Subject_6125,False,0.0,2025-12-02 17:05:43
+user20,personal@gmail.com,Subject_9703,False,0.0,2025-12-02 17:02:43
+user8,external@partner.com,Subject_7297,False,0.0,2025-12-02 16:32:43
+user2,manager@company.com,Subject_4700,False,0.0,2025-12-02 15:41:43
+user9,manager@company.com,Subject_2774,False,0.0,2025-12-02 14:14:43
+user16,colleague@company.com,Subject_9069,True,3.18,2025-12-02 14:10:43
+user3,manager@company.com,Subject_4626,False,0.0,2025-12-02 13:38:43
+user8,manager@company.com,Subject_1350,False,0.0,2025-12-02 12:33:43
+user7,colleague@company.com,Subject_6588,True,8.66,2025-12-02 11:25:43
+user20,external@partner.com,Subject_3118,False,0.0,2025-12-02 11:23:43
+user7,external@partner.com,Subject_3290,False,0.0,2025-12-02 10:54:43
+user1,manager@company.com,Subject_8159,True,3.09,2025-12-02 10:50:43
+user12,colleague@company.com,Subject_7778,False,0.0,2025-12-02 09:40:43
+user12,colleague@company.com,Subject_1991,True,5.52,2025-12-02 07:31:43
+user7,external@partner.com,Subject_9376,True,1.63,2025-12-02 07:25:43
+user17,colleague@company.com,Subject_5630,True,18.08,2025-12-02 07:17:43
+user6,manager@company.com,Subject_5315,False,0.0,2025-12-02 07:11:43
+user5,colleague@company.com,Subject_3690,False,0.0,2025-12-02 06:59:43
+user5,colleague@company.com,Subject_2148,False,0.0,2025-12-02 06:55:43
+user5,colleague@company.com,Subject_8817,False,0.0,2025-12-02 06:41:43
+user18,colleague@company.com,Subject_6576,False,0.0,2025-12-02 06:30:43
+user20,personal@gmail.com,Subject_4296,True,4.41,2025-12-02 06:07:43
+user9,colleague@company.com,Subject_9122,False,0.0,2025-12-02 04:36:43
+user4,colleague@company.com,Subject_9148,False,0.0,2025-12-02 03:36:43
+user17,manager@company.com,Subject_9320,True,3.42,2025-12-02 03:25:43
+user19,manager@company.com,Subject_7898,False,0.0,2025-12-02 02:28:43
+user10,manager@company.com,Subject_7914,False,0.0,2025-12-02 00:42:43
+user9,manager@company.com,Subject_5144,False,0.0,2025-12-02 00:39:43
+user14,manager@company.com,Subject_6788,False,0.0,2025-12-02 00:12:43
+user11,manager@company.com,Subject_7695,False,0.0,2025-12-02 00:08:43
+user15,colleague@company.com,Subject_8572,True,3.98,2025-12-01 23:57:43
+user13,manager@company.com,Subject_7088,True,2.15,2025-12-01 23:41:43
+user6,colleague@company.com,Subject_5690,False,0.0,2025-12-01 22:39:43
+user4,colleague@company.com,Subject_9407,False,0.0,2025-12-01 22:27:43
+user6,colleague@company.com,Subject_3098,True,6.09,2025-12-01 22:10:43
+user3,external@partner.com,Subject_3515,False,0.0,2025-12-01 21:42:43
+user20,colleague@company.com,Subject_1954,False,0.0,2025-12-01 21:29:43
+user4,manager@company.com,Subject_7356,False,0.0,2025-12-01 19:02:43
+user8,manager@company.com,Subject_2579,True,10.46,2025-12-01 18:29:43
+user7,colleague@company.com,Subject_4676,False,0.0,2025-12-01 18:17:43
+user5,personal@gmail.com,Subject_1790,False,0.0,2025-12-01 18:10:43
+user7,manager@company.com,Subject_1965,False,0.0,2025-12-01 17:10:43
+user16,manager@company.com,Subject_3208,True,16.22,2025-12-01 11:27:43
+user9,colleague@company.com,Subject_7803,False,0.0,2025-12-01 11:27:43
+user18,manager@company.com,Subject_3563,False,0.0,2025-12-01 11:06:43
+user1,manager@company.com,Subject_1210,False,0.0,2025-12-01 10:39:43
+user12,manager@company.com,Subject_8845,True,12.95,2025-12-01 09:28:43
+user20,external@partner.com,Subject_4782,False,0.0,2025-12-01 09:09:43
+user17,colleague@company.com,Subject_2883,False,0.0,2025-12-01 08:55:43
+user7,personal@gmail.com,Subject_3575,False,0.0,2025-12-01 07:40:43
+user11,manager@company.com,Subject_8602,True,9.41,2025-12-01 07:15:43
+user18,personal@gmail.com,Subject_6503,False,0.0,2025-12-01 06:40:43
+user12,personal@gmail.com,Subject_2149,False,0.0,2025-12-01 06:01:43
+user2,external@partner.com,Subject_8283,False,0.0,2025-12-01 05:52:43
+user4,manager@company.com,Subject_6692,False,0.0,2025-12-01 05:46:43
+user4,manager@company.com,Subject_9054,False,0.0,2025-12-01 03:47:43
+user15,personal@gmail.com,Subject_8432,False,0.0,2025-12-01 03:30:43
+user20,personal@gmail.com,Subject_4875,False,0.0,2025-12-01 01:15:43
+user10,colleague@company.com,Subject_3213,True,6.72,2025-12-01 00:05:43
+user1,manager@company.com,Subject_6321,False,0.0,2025-11-30 22:49:43
+user1,manager@company.com,Subject_3318,False,0.0,2025-11-30 22:36:43
+user20,personal@gmail.com,Subject_1614,True,7.58,2025-11-30 22:34:43
+user20,personal@gmail.com,Subject_5454,False,0.0,2025-11-30 21:24:43
+user8,colleague@company.com,Subject_6429,False,0.0,2025-11-30 20:34:43
+user11,personal@gmail.com,Subject_9062,True,7.85,2025-11-30 17:17:43
+user13,external@partner.com,Subject_6190,False,0.0,2025-11-30 16:33:43
+user4,manager@company.com,Subject_4474,False,0.0,2025-11-30 16:29:43
+user15,manager@company.com,Subject_5440,False,0.0,2025-11-30 16:11:43
+user17,colleague@company.com,Subject_6244,False,0.0,2025-11-30 16:10:43
+user17,colleague@company.com,Subject_2726,False,0.0,2025-11-30 15:30:43
+user7,external@partner.com,Subject_8850,False,0.0,2025-11-30 14:57:43
+user3,manager@company.com,Subject_3568,False,0.0,2025-11-30 13:33:43
+user19,colleague@company.com,Subject_9059,False,0.0,2025-11-30 07:27:43
+user12,manager@company.com,Subject_3583,False,0.0,2025-11-30 06:33:43
+user6,colleague@company.com,Subject_1204,False,0.0,2025-11-30 06:32:43
+user2,personal@gmail.com,Subject_5377,False,0.0,2025-11-30 05:28:43
+user10,manager@company.com,Subject_5403,False,0.0,2025-11-30 05:24:43
+user6,manager@company.com,Subject_8896,False,0.0,2025-11-30 04:45:43
+user15,manager@company.com,Subject_3979,False,0.0,2025-11-30 04:39:43
+user7,external@partner.com,Subject_1048,False,0.0,2025-11-29 23:13:43
+user7,personal@gmail.com,Subject_1294,False,0.0,2025-11-29 23:09:43
+user14,manager@company.com,Subject_6223,True,18.07,2025-11-29 22:39:43
+user5,manager@company.com,Subject_4710,False,0.0,2025-11-29 21:54:43
+user6,manager@company.com,Subject_2601,True,6.79,2025-11-29 21:31:43
+user15,personal@gmail.com,Subject_1419,False,0.0,2025-11-29 20:55:43
+user15,manager@company.com,Subject_4885,True,4.13,2025-11-29 20:01:43
+user19,colleague@company.com,Subject_7301,False,0.0,2025-11-29 18:40:43
+user6,manager@company.com,Subject_6800,True,12.48,2025-11-29 17:56:43
+user10,colleague@company.com,Subject_9582,True,4.96,2025-11-29 16:23:43
+user8,personal@gmail.com,Subject_7067,False,0.0,2025-11-29 16:22:43
+user8,personal@gmail.com,Subject_5205,True,11.65,2025-11-29 15:47:43
+user9,external@partner.com,Subject_5396,False,0.0,2025-11-29 14:49:43
+user9,colleague@company.com,Subject_6917,True,3.21,2025-11-29 14:04:43
+user6,external@partner.com,Subject_4837,False,0.0,2025-11-29 09:19:43
+user20,manager@company.com,Subject_1297,False,0.0,2025-11-29 08:34:43
+user16,colleague@company.com,Subject_8227,True,3.09,2025-11-29 07:41:43
+user14,manager@company.com,Subject_5957,True,2.66,2025-11-29 06:24:43
+user6,manager@company.com,Subject_7272,False,0.0,2025-11-29 05:27:43
+user3,colleague@company.com,Subject_2392,False,0.0,2025-11-29 05:21:43
+user16,external@partner.com,Subject_5870,False,0.0,2025-11-29 04:31:43
+user13,external@partner.com,Subject_3837,False,0.0,2025-11-29 03:36:43
+user9,external@partner.com,Subject_1354,False,0.0,2025-11-29 00:59:43
+user17,external@partner.com,Subject_1085,False,0.0,2025-11-29 00:52:43
+user13,manager@company.com,Subject_8500,False,0.0,2025-11-29 00:43:43
+user10,manager@company.com,Subject_4445,True,11.83,2025-11-28 23:18:43
+user1,colleague@company.com,Subject_8205,False,0.0,2025-11-28 22:42:43
+user4,external@partner.com,Subject_1881,False,0.0,2025-11-28 22:18:43
+user19,colleague@company.com,Subject_5874,True,16.42,2025-11-28 21:54:43
+user16,external@partner.com,Subject_1007,False,0.0,2025-11-28 21:24:43
+user7,manager@company.com,Subject_9265,False,0.0,2025-11-28 20:26:43
+user10,external@partner.com,Subject_2073,False,0.0,2025-11-28 19:41:43
+user6,personal@gmail.com,Subject_3067,False,0.0,2025-11-28 18:36:43
+user12,external@partner.com,Subject_2071,False,0.0,2025-11-28 17:04:43
+user20,colleague@company.com,Subject_7575,False,0.0,2025-11-28 16:35:43
+user13,personal@gmail.com,Subject_5722,False,0.0,2025-11-28 15:57:43
+user10,manager@company.com,Subject_9158,False,0.0,2025-11-28 12:16:43
+user12,colleague@company.com,Subject_6302,False,0.0,2025-11-28 12:09:43
+user7,colleague@company.com,Subject_5512,False,0.0,2025-11-28 11:54:43
+user20,personal@gmail.com,Subject_5114,True,12.49,2025-11-28 10:58:43
+user19,manager@company.com,Subject_9215,False,0.0,2025-11-28 10:40:43
+user20,colleague@company.com,Subject_6569,False,0.0,2025-11-28 09:26:43
+user20,personal@gmail.com,Subject_8540,False,0.0,2025-11-28 08:40:43
+user15,colleague@company.com,Subject_8566,False,0.0,2025-11-28 06:21:43
+user11,manager@company.com,Subject_7970,False,0.0,2025-11-28 06:14:43
+user13,colleague@company.com,Subject_7780,False,0.0,2025-11-28 04:24:43
+user20,colleague@company.com,Subject_8648,False,0.0,2025-11-28 02:53:43
+user15,colleague@company.com,Subject_9700,False,0.0,2025-11-28 01:41:43
+user20,manager@company.com,Subject_9673,True,18.85,2025-11-28 00:36:43
+user20,external@partner.com,Subject_2489,False,0.0,2025-11-27 23:16:43
+user20,external@partner.com,Subject_6024,False,0.0,2025-11-27 23:09:43
+user7,manager@company.com,Subject_6502,False,0.0,2025-11-27 22:15:43
+user18,manager@company.com,Subject_9570,False,0.0,2025-11-27 22:10:43
+user20,colleague@company.com,Subject_3361,False,0.0,2025-11-27 21:36:43
+user20,external@partner.com,Subject_1471,False,0.0,2025-11-27 21:27:43
+user20,personal@gmail.com,Subject_9564,True,10.56,2025-11-27 21:25:43
+user4,colleague@company.com,Subject_3692,True,14.97,2025-11-27 21:06:43
+user20,external@partner.com,Subject_3484,False,0.0,2025-11-27 19:58:43
+user13,manager@company.com,Subject_9048,True,11.15,2025-11-27 19:49:43
+user18,manager@company.com,Subject_7789,True,10.79,2025-11-27 19:29:43
+user1,external@partner.com,Subject_1992,False,0.0,2025-11-27 18:59:43
+user3,manager@company.com,Subject_2458,True,4.49,2025-11-27 16:13:43
+user7,manager@company.com,Subject_3793,False,0.0,2025-11-27 15:55:43
+user1,colleague@company.com,Subject_3457,False,0.0,2025-11-27 15:52:43
+user18,external@partner.com,Subject_9602,False,0.0,2025-11-27 15:37:43
+user5,colleague@company.com,Subject_2840,False,0.0,2025-11-27 11:14:43
+user7,colleague@company.com,Subject_2938,True,15.52,2025-11-27 10:50:43
+user14,colleague@company.com,Subject_4570,True,8.09,2025-11-27 10:08:43
+user10,colleague@company.com,Subject_9991,False,0.0,2025-11-27 08:58:43
+user20,colleague@company.com,Subject_4266,False,0.0,2025-11-27 08:49:43
+user4,manager@company.com,Subject_1996,False,0.0,2025-11-27 08:41:43
+user16,external@partner.com,Subject_7972,False,0.0,2025-11-27 08:30:43
+user7,manager@company.com,Subject_4116,False,0.0,2025-11-27 06:51:43
+user7,colleague@company.com,Subject_6478,False,0.0,2025-11-27 05:37:43
+user12,personal@gmail.com,Subject_4637,False,0.0,2025-11-27 04:49:43
+user4,personal@gmail.com,Subject_7067,False,0.0,2025-11-27 02:59:43
+user13,external@partner.com,Subject_4400,False,0.0,2025-11-27 02:12:43
+user13,colleague@company.com,Subject_6097,True,6.57,2025-11-27 02:05:43
+user2,manager@company.com,Subject_4523,False,0.0,2025-11-27 01:02:43
+user2,manager@company.com,Subject_2902,False,0.0,2025-11-27 00:55:43
+user3,manager@company.com,Subject_8343,False,0.0,2025-11-27 00:10:43
+user17,colleague@company.com,Subject_5998,False,0.0,2025-11-27 00:10:43
+user1,colleague@company.com,Subject_2687,False,0.0,2025-11-26 22:48:43
+user8,personal@gmail.com,Subject_5427,False,0.0,2025-11-26 22:25:43
+user20,manager@company.com,Subject_4244,False,0.0,2025-11-26 22:09:43
+user6,personal@gmail.com,Subject_3452,False,0.0,2025-11-26 21:21:43
+user3,colleague@company.com,Subject_4160,False,0.0,2025-11-26 21:08:43
+user7,personal@gmail.com,Subject_5605,True,5.46,2025-11-26 20:38:43
+user8,personal@gmail.com,Subject_1278,True,18.23,2025-11-26 17:47:43
+user6,manager@company.com,Subject_3706,False,0.0,2025-11-26 16:36:43
+user19,manager@company.com,Subject_2631,False,0.0,2025-11-26 14:19:43
+user20,colleague@company.com,Subject_7601,False,0.0,2025-11-26 14:15:43
+user11,manager@company.com,Subject_3045,False,0.0,2025-11-26 12:36:43
+user3,manager@company.com,Subject_1425,False,0.0,2025-11-26 12:00:43
+user11,colleague@company.com,Subject_7566,True,1.9,2025-11-26 11:45:43
+user14,colleague@company.com,Subject_8775,False,0.0,2025-11-26 06:32:43
+user20,personal@gmail.com,Subject_7612,True,10.13,2025-11-26 05:26:43
+user20,external@partner.com,Subject_3367,False,0.0,2025-11-26 04:21:43
+user14,colleague@company.com,Subject_4573,False,0.0,2025-11-26 03:35:43
+user15,colleague@company.com,Subject_5406,True,7.05,2025-11-26 03:20:43
+user8,manager@company.com,Subject_9578,False,0.0,2025-11-26 02:46:43
+user12,manager@company.com,Subject_2738,False,0.0,2025-11-26 02:02:43
+user13,colleague@company.com,Subject_7468,False,0.0,2025-11-26 01:43:43
+user11,manager@company.com,Subject_3666,False,0.0,2025-11-25 23:26:43
+user13,colleague@company.com,Subject_3677,True,8.29,2025-11-25 22:10:43
+user14,colleague@company.com,Subject_5649,False,0.0,2025-11-25 21:57:43
+user13,manager@company.com,Subject_1905,False,0.0,2025-11-25 20:53:43
+user2,manager@company.com,Subject_4654,False,0.0,2025-11-25 18:39:43
+user20,personal@gmail.com,Subject_9599,False,0.0,2025-11-25 17:09:43
+user19,personal@gmail.com,Subject_7413,False,0.0,2025-11-25 17:05:43
+user4,colleague@company.com,Subject_4846,False,0.0,2025-11-25 15:58:43
+user14,manager@company.com,Subject_6285,False,0.0,2025-11-25 15:26:43
+user3,colleague@company.com,Subject_3116,False,0.0,2025-11-25 14:58:43
+user13,external@partner.com,Subject_1456,False,0.0,2025-11-25 12:19:43
+user2,colleague@company.com,Subject_8342,False,0.0,2025-11-25 12:01:43
+user4,manager@company.com,Subject_1618,True,12.03,2025-11-25 11:42:43
+user10,colleague@company.com,Subject_2249,False,0.0,2025-11-25 11:36:43
+user4,external@partner.com,Subject_7105,False,0.0,2025-11-25 10:34:43
+user13,manager@company.com,Subject_4456,True,19.63,2025-11-25 07:50:43
+user8,manager@company.com,Subject_3093,False,0.0,2025-11-25 07:44:43
+user5,manager@company.com,Subject_8733,True,15.63,2025-11-25 06:40:43
+user9,colleague@company.com,Subject_3138,False,0.0,2025-11-25 06:32:43
+user20,external@partner.com,Subject_7586,False,0.0,2025-11-25 06:17:43
+user9,manager@company.com,Subject_2261,False,0.0,2025-11-25 04:52:43
+user5,manager@company.com,Subject_3940,True,8.77,2025-11-25 04:47:43
+user2,manager@company.com,Subject_6623,False,0.0,2025-11-25 04:22:43
+user10,personal@gmail.com,Subject_7748,False,0.0,2025-11-25 03:45:43
+user20,colleague@company.com,Subject_9257,False,0.0,2025-11-25 03:16:43
+user8,manager@company.com,Subject_4381,False,0.0,2025-11-25 02:48:43
+user8,manager@company.com,Subject_8870,False,0.0,2025-11-25 02:36:43
+user9,colleague@company.com,Subject_4094,True,6.63,2025-11-25 01:56:43
+user11,personal@gmail.com,Subject_4940,False,0.0,2025-11-25 00:51:43
+user5,external@partner.com,Subject_9042,True,13.21,2025-11-24 23:01:43
+user12,colleague@company.com,Subject_4343,False,0.0,2025-11-24 22:32:43
+user19,personal@gmail.com,Subject_5206,True,6.39,2025-11-24 21:02:43
+user10,colleague@company.com,Subject_6645,False,0.0,2025-11-24 17:07:43
+user16,personal@gmail.com,Subject_1094,False,0.0,2025-11-24 15:41:43
+user6,colleague@company.com,Subject_2103,True,15.68,2025-11-24 15:15:43
+user3,colleague@company.com,Subject_9582,False,0.0,2025-11-24 14:41:43
+user13,manager@company.com,Subject_8527,True,14.36,2025-11-24 10:56:43
+user19,manager@company.com,Subject_8822,True,4.48,2025-11-24 08:17:43
+user15,colleague@company.com,Subject_2746,True,3.04,2025-11-24 07:18:43
+user9,manager@company.com,Subject_5397,True,16.58,2025-11-24 07:04:43
+user11,personal@gmail.com,Subject_2996,False,0.0,2025-11-24 05:57:43
+user16,external@partner.com,Subject_5143,False,0.0,2025-11-24 05:51:43
+user20,manager@company.com,Subject_4098,True,10.43,2025-11-24 04:11:43
+user8,manager@company.com,Subject_7158,False,0.0,2025-11-24 04:05:43
+user20,personal@gmail.com,Subject_3826,False,0.0,2025-11-24 03:49:43
+user6,colleague@company.com,Subject_1702,False,0.0,2025-11-24 03:26:43
+user7,external@partner.com,Subject_9242,False,0.0,2025-11-24 03:06:43
+user9,external@partner.com,Subject_8470,False,0.0,2025-11-24 02:44:43
+user7,colleague@company.com,Subject_8807,False,0.0,2025-11-23 23:54:43
+user15,colleague@company.com,Subject_1998,True,15.2,2025-11-23 23:52:43
+user18,manager@company.com,Subject_6454,False,0.0,2025-11-23 21:57:43
+user6,manager@company.com,Subject_5824,False,0.0,2025-11-23 20:01:43
+user16,colleague@company.com,Subject_7057,True,15.81,2025-11-23 18:38:43
+user7,external@partner.com,Subject_9719,False,0.0,2025-11-23 18:36:43
+user15,manager@company.com,Subject_9951,True,8.19,2025-11-23 18:07:43
+user1,manager@company.com,Subject_5421,False,0.0,2025-11-23 16:33:43
+user8,manager@company.com,Subject_5617,False,0.0,2025-11-23 13:52:43
+user15,personal@gmail.com,Subject_6540,False,0.0,2025-11-23 12:56:43
+user6,manager@company.com,Subject_3147,False,0.0,2025-11-23 12:42:43
+user8,personal@gmail.com,Subject_2653,True,17.09,2025-11-23 11:03:43
+user10,personal@gmail.com,Subject_6846,False,0.0,2025-11-23 10:09:43
+user13,colleague@company.com,Subject_8927,False,0.0,2025-11-23 07:51:43
+user5,external@partner.com,Subject_7980,True,4.92,2025-11-23 06:50:43
+user19,manager@company.com,Subject_8958,False,0.0,2025-11-23 06:31:43
+user13,colleague@company.com,Subject_9363,False,0.0,2025-11-23 05:56:43
+user18,manager@company.com,Subject_7158,False,0.0,2025-11-23 03:59:43
+user6,manager@company.com,Subject_5282,False,0.0,2025-11-23 03:35:43
+user11,manager@company.com,Subject_1867,True,17.08,2025-11-23 03:34:43
+user4,personal@gmail.com,Subject_2543,False,0.0,2025-11-23 02:51:43
+user18,colleague@company.com,Subject_7366,False,0.0,2025-11-23 02:25:43
+user3,manager@company.com,Subject_5504,True,6.19,2025-11-23 02:02:43
+user13,colleague@company.com,Subject_6585,True,15.67,2025-11-23 01:29:43
+user15,manager@company.com,Subject_8863,False,0.0,2025-11-22 23:08:43
+user20,external@partner.com,Subject_3266,False,0.0,2025-11-22 21:06:43
+user3,colleague@company.com,Subject_4409,False,0.0,2025-11-22 20:46:43
+user4,manager@company.com,Subject_9138,False,0.0,2025-11-22 19:55:43
+user18,manager@company.com,Subject_6270,False,0.0,2025-11-22 19:11:43
+user20,external@partner.com,Subject_9993,True,10.08,2025-11-22 17:58:43
+user13,colleague@company.com,Subject_1881,False,0.0,2025-11-22 16:17:43
+user20,manager@company.com,Subject_4684,False,0.0,2025-11-22 14:14:43
+user20,personal@gmail.com,Subject_6522,False,0.0,2025-11-22 14:02:43
+user7,colleague@company.com,Subject_5036,False,0.0,2025-11-22 14:00:43
+user13,colleague@company.com,Subject_7485,False,0.0,2025-11-22 13:23:43
+user18,colleague@company.com,Subject_7981,False,0.0,2025-11-22 12:30:43
+user17,colleague@company.com,Subject_5211,True,17.71,2025-11-22 11:42:43
+user8,external@partner.com,Subject_9769,True,13.9,2025-11-22 10:56:43
+user8,manager@company.com,Subject_4201,True,16.04,2025-11-22 09:11:43
+user10,personal@gmail.com,Subject_6896,True,15.94,2025-11-22 01:26:43
+user8,manager@company.com,Subject_9642,False,0.0,2025-11-22 01:11:43
+user7,manager@company.com,Subject_1601,False,0.0,2025-11-21 21:05:43
+user12,colleague@company.com,Subject_4121,False,0.0,2025-11-21 20:25:43
+user16,colleague@company.com,Subject_4709,False,0.0,2025-11-21 19:21:43
+user1,external@partner.com,Subject_3973,True,18.74,2025-11-21 18:12:43
+user20,external@partner.com,Subject_6576,False,0.0,2025-11-21 17:16:43
+user2,manager@company.com,Subject_4520,True,8.84,2025-11-21 17:03:43
+user20,colleague@company.com,Subject_9264,True,7.91,2025-11-21 16:29:43
+user3,colleague@company.com,Subject_5337,True,3.78,2025-11-21 16:26:43
+user1,personal@gmail.com,Subject_2882,True,15.57,2025-11-21 14:41:43
+user20,colleague@company.com,Subject_3872,True,13.84,2025-11-21 13:24:43
+user18,manager@company.com,Subject_6990,False,0.0,2025-11-21 11:55:43
+user17,colleague@company.com,Subject_6543,False,0.0,2025-11-21 10:24:43
+user20,external@partner.com,Subject_4193,False,0.0,2025-11-21 09:10:43
+user20,manager@company.com,Subject_5271,True,18.77,2025-11-21 08:58:43
+user17,manager@company.com,Subject_4880,False,0.0,2025-11-21 08:01:43
+user2,manager@company.com,Subject_9889,True,14.53,2025-11-21 07:58:43
+user13,external@partner.com,Subject_2413,True,6.09,2025-11-21 07:24:43
+user16,personal@gmail.com,Subject_6080,True,15.91,2025-11-21 05:30:43
+user4,colleague@company.com,Subject_9901,True,7.3,2025-11-21 05:00:43
+user13,manager@company.com,Subject_1732,False,0.0,2025-11-21 04:16:43
+user7,colleague@company.com,Subject_4571,False,0.0,2025-11-21 03:58:43
+user5,external@partner.com,Subject_7186,False,0.0,2025-11-21 01:57:43
+user13,manager@company.com,Subject_2282,False,0.0,2025-11-21 00:11:43
+user20,personal@gmail.com,Subject_1176,True,3.97,2025-11-20 23:25:43
+user11,manager@company.com,Subject_5317,False,0.0,2025-11-20 23:12:43
+user20,external@partner.com,Subject_1188,False,0.0,2025-11-20 21:20:43
+user15,colleague@company.com,Subject_4143,True,14.75,2025-11-20 20:33:43
+user9,colleague@company.com,Subject_2064,False,0.0,2025-11-20 20:10:43
+user12,external@partner.com,Subject_1443,True,11.11,2025-11-20 18:36:43
+user11,manager@company.com,Subject_9257,False,0.0,2025-11-20 18:04:43
+user20,personal@gmail.com,Subject_1310,False,0.0,2025-11-20 15:40:43
+user6,manager@company.com,Subject_8465,False,0.0,2025-11-20 14:42:43
+user20,manager@company.com,Subject_2409,True,10.63,2025-11-20 13:57:43
+user5,manager@company.com,Subject_6320,True,17.86,2025-11-20 12:50:43
+user7,colleague@company.com,Subject_7302,False,0.0,2025-11-20 12:19:43
+user8,colleague@company.com,Subject_8967,True,5.72,2025-11-20 09:11:43
+user5,colleague@company.com,Subject_5272,False,0.0,2025-11-20 07:33:43
+user8,colleague@company.com,Subject_1532,True,13.11,2025-11-20 07:20:43
+user17,colleague@company.com,Subject_5608,True,19.85,2025-11-20 07:01:43
+user7,colleague@company.com,Subject_5943,True,2.6,2025-11-20 06:19:43
+user8,manager@company.com,Subject_4612,False,0.0,2025-11-20 05:55:43
+user13,personal@gmail.com,Subject_8987,True,19.65,2025-11-20 03:43:43
+user3,manager@company.com,Subject_2519,False,0.0,2025-11-20 03:42:43
+user17,colleague@company.com,Subject_3674,False,0.0,2025-11-20 01:24:43
+user13,external@partner.com,Subject_9843,True,0.3,2025-11-20 00:02:43
+user2,personal@gmail.com,Subject_2259,False,0.0,2025-11-19 21:10:43
+user16,manager@company.com,Subject_9537,True,1.28,2025-11-19 19:47:43
+user10,colleague@company.com,Subject_3193,False,0.0,2025-11-19 17:52:43
+user6,colleague@company.com,Subject_9506,True,15.45,2025-11-19 16:29:43
+user20,manager@company.com,Subject_4806,False,0.0,2025-11-19 16:14:43
+user17,manager@company.com,Subject_7669,False,0.0,2025-11-19 15:54:43
+user7,colleague@company.com,Subject_2709,True,1.29,2025-11-19 15:19:43
+user7,external@partner.com,Subject_9401,False,0.0,2025-11-19 14:06:43
+user11,manager@company.com,Subject_4896,True,10.68,2025-11-19 08:34:43
+user2,colleague@company.com,Subject_7545,True,10.96,2025-11-19 03:55:43
+user15,colleague@company.com,Subject_4571,False,0.0,2025-11-19 03:52:43
+user5,manager@company.com,Subject_5985,False,0.0,2025-11-19 02:41:43
+user16,colleague@company.com,Subject_5590,False,0.0,2025-11-19 01:52:43
+user14,manager@company.com,Subject_3393,False,0.0,2025-11-19 01:39:43
+user19,colleague@company.com,Subject_3025,False,0.0,2025-11-18 23:31:43
+user2,colleague@company.com,Subject_4813,True,19.27,2025-11-18 23:19:43
+user13,personal@gmail.com,Subject_1978,False,0.0,2025-11-18 22:57:43
+user6,manager@company.com,Subject_1175,False,0.0,2025-11-18 22:00:43
+user12,personal@gmail.com,Subject_6365,True,10.66,2025-11-18 18:41:43
+user7,manager@company.com,Subject_4523,False,0.0,2025-11-18 18:19:43
+user8,colleague@company.com,Subject_4517,False,0.0,2025-11-18 17:10:43
+user15,manager@company.com,Subject_6962,False,0.0,2025-11-18 16:29:43
+user2,manager@company.com,Subject_5568,False,0.0,2025-11-18 16:07:43
+user3,manager@company.com,Subject_9662,True,14.7,2025-11-18 15:50:43
+user7,manager@company.com,Subject_8185,False,0.0,2025-11-18 14:18:43
+user13,personal@gmail.com,Subject_2910,True,17.07,2025-11-18 13:54:43
+user20,manager@company.com,Subject_2617,True,2.0,2025-11-18 13:21:43
+user15,manager@company.com,Subject_4365,False,0.0,2025-11-18 12:24:43
+user6,manager@company.com,Subject_2505,False,0.0,2025-11-18 11:43:43
+user7,personal@gmail.com,Subject_4943,False,0.0,2025-11-18 10:50:43
+user7,personal@gmail.com,Subject_8502,False,0.0,2025-11-18 10:30:43
+user4,manager@company.com,Subject_9078,False,0.0,2025-11-18 09:52:43
+user7,personal@gmail.com,Subject_4171,True,7.07,2025-11-18 09:02:43
+user2,manager@company.com,Subject_4496,False,0.0,2025-11-18 08:57:43
+user2,manager@company.com,Subject_3918,False,0.0,2025-11-18 08:15:43
+user16,manager@company.com,Subject_6775,False,0.0,2025-11-18 08:00:43
+user18,colleague@company.com,Subject_6497,False,0.0,2025-11-18 07:51:43
+user10,manager@company.com,Subject_9696,False,0.0,2025-11-18 07:22:43
+user2,colleague@company.com,Subject_3078,False,0.0,2025-11-18 07:19:43
+user10,manager@company.com,Subject_6236,False,0.0,2025-11-18 06:58:43
+user10,manager@company.com,Subject_4632,False,0.0,2025-11-18 06:56:43
+user20,personal@gmail.com,Subject_6652,False,0.0,2025-11-18 06:32:43
+user17,external@partner.com,Subject_5819,True,5.06,2025-11-18 04:24:43
+user14,colleague@company.com,Subject_5757,True,2.67,2025-11-18 02:59:43
+user6,manager@company.com,Subject_6810,False,0.0,2025-11-18 02:21:43
+user4,manager@company.com,Subject_7103,False,0.0,2025-11-18 01:47:43
+user16,colleague@company.com,Subject_8276,False,0.0,2025-11-18 00:17:43
+user20,personal@gmail.com,Subject_6521,False,0.0,2025-11-17 23:59:43
+user7,colleague@company.com,Subject_9382,False,0.0,2025-11-17 23:11:43
+user20,manager@company.com,Subject_1604,False,0.0,2025-11-17 22:34:43
+user4,external@partner.com,Subject_3422,False,0.0,2025-11-17 22:24:43
+user16,colleague@company.com,Subject_9019,False,0.0,2025-11-17 21:37:43
+user9,colleague@company.com,Subject_6621,False,0.0,2025-11-17 21:22:43
+user9,personal@gmail.com,Subject_6928,False,0.0,2025-11-17 20:44:43
+user13,external@partner.com,Subject_2356,False,0.0,2025-11-17 20:34:43
+user7,manager@company.com,Subject_6093,True,19.5,2025-11-17 20:05:43
+user2,personal@gmail.com,Subject_6886,True,11.77,2025-11-17 19:32:43
+user14,personal@gmail.com,Subject_2240,False,0.0,2025-11-17 18:59:43
+user7,manager@company.com,Subject_9878,True,7.29,2025-11-17 14:57:43
+user4,manager@company.com,Subject_1149,False,0.0,2025-11-17 14:47:43
+user4,colleague@company.com,Subject_3249,True,12.39,2025-11-17 13:53:43
+user11,colleague@company.com,Subject_7532,False,0.0,2025-11-17 12:16:43
+user7,manager@company.com,Subject_7052,False,0.0,2025-11-17 11:22:43
+user10,manager@company.com,Subject_7186,True,2.8,2025-11-17 10:54:43
+user16,personal@gmail.com,Subject_5077,False,0.0,2025-11-17 09:53:43
+user17,manager@company.com,Subject_3760,False,0.0,2025-11-17 09:52:43
+user13,external@partner.com,Subject_5216,True,1.07,2025-11-17 07:40:43
+user6,colleague@company.com,Subject_2957,False,0.0,2025-11-17 07:14:43
+user3,manager@company.com,Subject_3395,False,0.0,2025-11-17 07:08:43
+user20,colleague@company.com,Subject_6881,True,1.33,2025-11-17 06:15:43
+user7,external@partner.com,Subject_4479,False,0.0,2025-11-17 05:13:43
+user20,external@partner.com,Subject_1702,False,0.0,2025-11-17 04:42:43
+user8,colleague@company.com,Subject_3977,False,0.0,2025-11-17 04:38:43
+user15,manager@company.com,Subject_2431,False,0.0,2025-11-17 02:42:43
+user4,colleague@company.com,Subject_9309,True,6.17,2025-11-17 01:14:43
+user15,external@partner.com,Subject_1948,False,0.0,2025-11-16 23:38:43
+user7,colleague@company.com,Subject_8652,True,7.99,2025-11-16 19:33:43
+user3,manager@company.com,Subject_5377,True,1.98,2025-11-16 17:20:43
+user12,manager@company.com,Subject_2182,False,0.0,2025-11-16 16:20:43
+user15,colleague@company.com,Subject_6674,False,0.0,2025-11-16 15:22:43
+user20,manager@company.com,Subject_9450,True,10.83,2025-11-16 15:02:43
+user14,colleague@company.com,Subject_7165,True,7.07,2025-11-16 13:25:43
+user20,colleague@company.com,Subject_7178,False,0.0,2025-11-16 12:28:43
+user3,colleague@company.com,Subject_7055,False,0.0,2025-11-16 11:22:43
+user5,manager@company.com,Subject_6030,False,0.0,2025-11-16 10:44:43
+user15,manager@company.com,Subject_6435,True,8.77,2025-11-16 10:08:43
+user8,personal@gmail.com,Subject_8880,True,19.26,2025-11-16 09:08:43
+user13,personal@gmail.com,Subject_7651,False,0.0,2025-11-16 08:16:43
+user2,personal@gmail.com,Subject_7948,False,0.0,2025-11-16 07:24:43
+user4,manager@company.com,Subject_9280,False,0.0,2025-11-16 03:28:43
+user4,manager@company.com,Subject_6951,False,0.0,2025-11-16 03:25:43
+user18,colleague@company.com,Subject_6563,True,4.03,2025-11-16 03:24:43
+user10,colleague@company.com,Subject_6728,False,0.0,2025-11-16 02:16:43
+user20,personal@gmail.com,Subject_6564,False,0.0,2025-11-16 01:38:43
+user17,personal@gmail.com,Subject_9710,False,0.0,2025-11-15 22:36:43
+user13,external@partner.com,Subject_5071,False,0.0,2025-11-15 21:59:43
+user13,colleague@company.com,Subject_5077,False,0.0,2025-11-15 20:56:43
+user16,colleague@company.com,Subject_7242,False,0.0,2025-11-15 20:18:43
+user12,external@partner.com,Subject_8949,False,0.0,2025-11-15 20:10:43
+user1,colleague@company.com,Subject_1984,False,0.0,2025-11-15 19:41:43
+user11,manager@company.com,Subject_2684,False,0.0,2025-11-15 18:33:43
+user7,colleague@company.com,Subject_4398,False,0.0,2025-11-15 17:58:43
+user20,manager@company.com,Subject_5810,False,0.0,2025-11-15 17:48:43
+user13,personal@gmail.com,Subject_4152,False,0.0,2025-11-15 17:32:43
+user13,personal@gmail.com,Subject_2762,False,0.0,2025-11-15 15:54:43
+user5,manager@company.com,Subject_9622,True,18.17,2025-11-15 15:03:43
+user6,colleague@company.com,Subject_4731,False,0.0,2025-11-15 13:57:43
+user15,colleague@company.com,Subject_7285,False,0.0,2025-11-15 07:32:43
+user18,external@partner.com,Subject_1608,True,10.21,2025-11-15 07:29:43
+user17,colleague@company.com,Subject_4055,False,0.0,2025-11-15 07:27:43
+user12,manager@company.com,Subject_7642,False,0.0,2025-11-15 07:03:43
+user14,colleague@company.com,Subject_2941,True,8.06,2025-11-15 06:52:43
+user10,colleague@company.com,Subject_1256,False,0.0,2025-11-15 06:19:43
+user12,manager@company.com,Subject_9975,True,5.39,2025-11-15 06:12:43
+user7,colleague@company.com,Subject_2461,True,18.47,2025-11-15 05:58:43
+user14,personal@gmail.com,Subject_5715,False,0.0,2025-11-15 04:49:43
+user4,colleague@company.com,Subject_5736,True,3.32,2025-11-15 01:57:43
+user12,colleague@company.com,Subject_5535,False,0.0,2025-11-15 00:30:43
+user20,personal@gmail.com,Subject_3181,True,2.13,2025-11-14 21:56:43
+user18,colleague@company.com,Subject_6737,False,0.0,2025-11-14 17:56:43
+user2,colleague@company.com,Subject_5846,True,3.26,2025-11-14 16:40:43
+user15,colleague@company.com,Subject_6560,False,0.0,2025-11-14 16:34:43
+user12,manager@company.com,Subject_3129,True,6.5,2025-11-14 13:55:43
+user13,manager@company.com,Subject_9613,False,0.0,2025-11-14 11:33:43
+user20,colleague@company.com,Subject_6300,False,0.0,2025-11-14 11:14:43
+user3,manager@company.com,Subject_3118,False,0.0,2025-11-14 10:29:43
+user17,manager@company.com,Subject_3793,True,19.27,2025-11-14 10:21:43
+user12,manager@company.com,Subject_1833,True,8.87,2025-11-14 09:29:43
+user20,external@partner.com,Subject_7018,True,10.28,2025-11-14 08:08:43
+user14,manager@company.com,Subject_2475,False,0.0,2025-11-14 07:21:43
+user12,colleague@company.com,Subject_5392,False,0.0,2025-11-14 07:09:43
+user14,personal@gmail.com,Subject_7811,False,0.0,2025-11-14 06:55:43
+user20,personal@gmail.com,Subject_7653,False,0.0,2025-11-14 06:28:43
+user6,manager@company.com,Subject_8778,False,0.0,2025-11-14 06:11:43
+user10,colleague@company.com,Subject_4147,True,3.51,2025-11-14 05:55:43
+user15,personal@gmail.com,Subject_2459,False,0.0,2025-11-14 04:07:43
+user17,manager@company.com,Subject_3112,False,0.0,2025-11-14 01:34:43
+user6,personal@gmail.com,Subject_3657,False,0.0,2025-11-14 01:25:43
+user18,manager@company.com,Subject_3203,True,5.43,2025-11-13 23:12:43
+user17,colleague@company.com,Subject_4576,False,0.0,2025-11-13 22:49:43
+user17,manager@company.com,Subject_7363,True,9.81,2025-11-13 22:34:43
+user19,manager@company.com,Subject_8184,False,0.0,2025-11-13 22:28:43
+user13,manager@company.com,Subject_1755,False,0.0,2025-11-13 22:14:43
+user13,colleague@company.com,Subject_7001,False,0.0,2025-11-13 20:45:43
+user7,colleague@company.com,Subject_6606,True,0.86,2025-11-13 20:14:43
+user3,colleague@company.com,Subject_2528,False,0.0,2025-11-13 18:47:43
+user2,colleague@company.com,Subject_6065,False,0.0,2025-11-13 18:42:43
+user1,colleague@company.com,Subject_5364,True,5.06,2025-11-13 17:41:43
+user13,personal@gmail.com,Subject_4531,False,0.0,2025-11-13 15:26:43
+user10,personal@gmail.com,Subject_7747,False,0.0,2025-11-13 15:23:43
+user14,colleague@company.com,Subject_2968,False,0.0,2025-11-13 14:47:43
+user13,colleague@company.com,Subject_2002,False,0.0,2025-11-13 14:18:43
+user9,external@partner.com,Subject_9567,False,0.0,2025-11-13 14:02:43
+user18,manager@company.com,Subject_8373,True,5.46,2025-11-13 13:20:43
+user19,manager@company.com,Subject_8215,True,13.35,2025-11-13 12:35:43
+user20,colleague@company.com,Subject_9597,True,13.47,2025-11-13 10:55:43
+user13,manager@company.com,Subject_6383,True,1.07,2025-11-13 10:41:43
+user1,manager@company.com,Subject_6585,False,0.0,2025-11-13 10:37:43
+user18,manager@company.com,Subject_2592,False,0.0,2025-11-13 09:57:43
+user20,colleague@company.com,Subject_8006,False,0.0,2025-11-13 08:29:43
+user6,colleague@company.com,Subject_7772,False,0.0,2025-11-13 05:34:43
+user16,personal@gmail.com,Subject_2703,True,18.8,2025-11-13 04:37:43
+user7,manager@company.com,Subject_7862,False,0.0,2025-11-13 03:13:43
+user4,external@partner.com,Subject_7763,False,0.0,2025-11-13 02:54:43
+user5,external@partner.com,Subject_3009,False,0.0,2025-11-13 02:29:43
+user6,manager@company.com,Subject_4066,False,0.0,2025-11-13 00:38:43
+user20,external@partner.com,Subject_2804,False,0.0,2025-11-13 00:28:43
+user3,colleague@company.com,Subject_7664,False,0.0,2025-11-12 21:53:43
+user16,colleague@company.com,Subject_2575,False,0.0,2025-11-12 20:57:43
+user2,external@partner.com,Subject_6329,False,0.0,2025-11-12 20:46:43
+user20,colleague@company.com,Subject_3298,True,0.49,2025-11-12 20:45:43
+user9,manager@company.com,Subject_1276,False,0.0,2025-11-12 20:17:43
+user8,external@partner.com,Subject_2861,True,8.13,2025-11-12 20:08:43
+user17,colleague@company.com,Subject_8478,False,0.0,2025-11-12 19:50:43
+user6,external@partner.com,Subject_3368,True,6.48,2025-11-12 16:54:43
+user5,manager@company.com,Subject_7737,False,0.0,2025-11-12 16:40:43
+user3,manager@company.com,Subject_2664,True,11.62,2025-11-12 16:02:43
+user8,external@partner.com,Subject_9144,False,0.0,2025-11-12 15:07:43
+user7,manager@company.com,Subject_7966,True,10.63,2025-11-12 14:24:43
+user10,manager@company.com,Subject_3931,True,5.18,2025-11-12 14:17:43
+user20,external@partner.com,Subject_7648,False,0.0,2025-11-12 13:15:43
+user20,colleague@company.com,Subject_1638,True,7.56,2025-11-12 11:02:43
+user7,manager@company.com,Subject_1048,False,0.0,2025-11-12 10:07:43
+user19,manager@company.com,Subject_5394,False,0.0,2025-11-12 08:34:43
+user19,colleague@company.com,Subject_6656,True,18.54,2025-11-12 06:26:43
+user2,colleague@company.com,Subject_3902,False,0.0,2025-11-12 05:56:43
+user13,manager@company.com,Subject_1042,False,0.0,2025-11-12 05:08:43
+user20,personal@gmail.com,Subject_2272,True,16.9,2025-11-12 02:38:43
+user20,colleague@company.com,Subject_2251,False,0.0,2025-11-12 01:53:43
+user17,manager@company.com,Subject_4349,False,0.0,2025-11-11 23:47:43
+user19,colleague@company.com,Subject_8475,False,0.0,2025-11-11 23:37:43
+user11,colleague@company.com,Subject_7047,False,0.0,2025-11-11 22:32:43
+user4,manager@company.com,Subject_2842,False,0.0,2025-11-11 19:31:43
+user13,colleague@company.com,Subject_9607,False,0.0,2025-11-11 19:30:43
+user18,personal@gmail.com,Subject_3498,True,16.44,2025-11-11 18:38:43
+user8,colleague@company.com,Subject_6676,False,0.0,2025-11-11 17:57:43
+user19,manager@company.com,Subject_9211,False,0.0,2025-11-11 15:59:43
+user20,manager@company.com,Subject_9743,False,0.0,2025-11-11 15:49:43
+user13,personal@gmail.com,Subject_7556,False,0.0,2025-11-11 15:04:43
+user8,personal@gmail.com,Subject_9207,False,0.0,2025-11-11 14:50:43
+user20,external@partner.com,Subject_8853,False,0.0,2025-11-11 11:53:43
+user15,external@partner.com,Subject_7005,False,0.0,2025-11-11 11:51:43
+user19,manager@company.com,Subject_8759,True,18.3,2025-11-11 10:24:43
+user7,manager@company.com,Subject_6260,False,0.0,2025-11-11 09:45:43
+user16,manager@company.com,Subject_5403,True,5.56,2025-11-11 09:41:43
+user12,manager@company.com,Subject_7374,False,0.0,2025-11-11 09:14:43
+user16,manager@company.com,Subject_7264,False,0.0,2025-11-11 08:07:43
+user1,manager@company.com,Subject_6987,False,0.0,2025-11-11 06:42:43
+user3,manager@company.com,Subject_7491,False,0.0,2025-11-11 06:41:43
+user18,manager@company.com,Subject_8284,False,0.0,2025-11-11 06:15:43
+user12,colleague@company.com,Subject_3484,True,15.17,2025-11-11 04:11:43
+user7,external@partner.com,Subject_5867,True,3.16,2025-11-11 02:03:43
+user13,manager@company.com,Subject_8893,False,0.0,2025-11-11 01:55:43
+user16,manager@company.com,Subject_5512,False,0.0,2025-11-11 01:35:43
+user1,manager@company.com,Subject_6504,True,4.07,2025-11-11 00:44:43
+user5,colleague@company.com,Subject_1251,True,15.49,2025-11-11 00:07:43
+user10,colleague@company.com,Subject_3484,True,14.58,2025-11-10 22:53:43
+user8,manager@company.com,Subject_1921,False,0.0,2025-11-10 21:57:43
+user12,manager@company.com,Subject_8734,False,0.0,2025-11-10 21:41:43
+user1,manager@company.com,Subject_4901,False,0.0,2025-11-10 21:39:43
+user13,colleague@company.com,Subject_8946,True,18.62,2025-11-10 21:25:43
+user17,colleague@company.com,Subject_9052,True,0.55,2025-11-10 20:04:43
+user14,colleague@company.com,Subject_7560,True,14.48,2025-11-10 19:42:43
+user13,manager@company.com,Subject_6957,True,14.08,2025-11-10 19:34:43
+user14,manager@company.com,Subject_2152,True,18.03,2025-11-10 19:27:43
+user10,personal@gmail.com,Subject_3373,True,5.95,2025-11-10 18:15:43
+user12,manager@company.com,Subject_9871,False,0.0,2025-11-10 17:39:43
+user4,manager@company.com,Subject_9184,True,18.99,2025-11-10 15:58:43
+user3,personal@gmail.com,Subject_8597,False,0.0,2025-11-10 13:48:43
+user15,manager@company.com,Subject_9505,False,0.0,2025-11-10 12:51:43
+user4,colleague@company.com,Subject_7794,False,0.0,2025-11-10 11:54:43
+user4,manager@company.com,Subject_7716,False,0.0,2025-11-10 10:37:43
+user13,external@partner.com,Subject_4260,False,0.0,2025-11-10 09:06:43
+user20,manager@company.com,Subject_2951,False,0.0,2025-11-10 09:01:43
+user1,colleague@company.com,Subject_3928,True,3.55,2025-11-10 08:44:43
+user13,manager@company.com,Subject_1696,False,0.0,2025-11-10 08:25:43
+user15,manager@company.com,Subject_6064,False,0.0,2025-11-10 07:40:43
+user19,manager@company.com,Subject_1713,True,7.45,2025-11-10 06:41:43
+user20,colleague@company.com,Subject_9243,False,0.0,2025-11-10 06:34:43
+user6,personal@gmail.com,Subject_8729,False,0.0,2025-11-10 05:32:43
+user10,manager@company.com,Subject_2146,False,0.0,2025-11-10 04:32:43
+user13,personal@gmail.com,Subject_4550,False,0.0,2025-11-10 01:52:43
+user7,colleague@company.com,Subject_4703,False,0.0,2025-11-10 01:49:43
+user20,personal@gmail.com,Subject_9778,True,15.55,2025-11-09 23:58:43
+user17,external@partner.com,Subject_2124,False,0.0,2025-11-09 23:30:43
+user2,colleague@company.com,Subject_1186,True,4.66,2025-11-09 23:22:43
+user7,colleague@company.com,Subject_9179,True,10.14,2025-11-09 19:58:43
+user12,manager@company.com,Subject_1937,False,0.0,2025-11-09 19:45:43
+user20,external@partner.com,Subject_9481,False,0.0,2025-11-09 19:12:43
+user15,personal@gmail.com,Subject_9667,False,0.0,2025-11-09 17:56:43
+user17,colleague@company.com,Subject_1808,True,2.44,2025-11-09 17:56:43
+user20,personal@gmail.com,Subject_6772,False,0.0,2025-11-09 17:45:43
+user19,personal@gmail.com,Subject_4983,True,11.53,2025-11-09 16:57:43
+user8,manager@company.com,Subject_6917,False,0.0,2025-11-09 16:28:43
+user18,colleague@company.com,Subject_1514,False,0.0,2025-11-09 15:18:43
+user15,manager@company.com,Subject_4251,True,5.79,2025-11-09 13:52:43
+user12,manager@company.com,Subject_1534,False,0.0,2025-11-09 13:37:43
+user9,colleague@company.com,Subject_8349,True,13.66,2025-11-09 10:06:43
+user18,manager@company.com,Subject_6207,True,7.74,2025-11-09 10:04:43
+user9,manager@company.com,Subject_5051,False,0.0,2025-11-09 09:22:43
+user16,manager@company.com,Subject_4308,True,6.35,2025-11-09 09:19:43
+user4,colleague@company.com,Subject_4784,True,8.37,2025-11-09 07:58:43
+user6,colleague@company.com,Subject_7691,False,0.0,2025-11-09 07:58:43
+user13,external@partner.com,Subject_4040,True,11.3,2025-11-09 06:35:43
+user17,manager@company.com,Subject_6692,False,0.0,2025-11-09 05:39:43
+user8,colleague@company.com,Subject_9305,False,0.0,2025-11-09 04:11:43
+user2,manager@company.com,Subject_4348,True,13.87,2025-11-09 03:38:43
+user3,manager@company.com,Subject_4240,False,0.0,2025-11-09 03:04:43
+user11,colleague@company.com,Subject_5024,False,0.0,2025-11-09 01:18:43
+user4,manager@company.com,Subject_6552,True,13.89,2025-11-09 01:10:43
+user7,manager@company.com,Subject_7240,True,11.13,2025-11-09 00:27:43
+user15,manager@company.com,Subject_5292,False,0.0,2025-11-09 00:25:43
+user13,external@partner.com,Subject_2837,False,0.0,2025-11-09 00:06:43
+user10,colleague@company.com,Subject_6168,False,0.0,2025-11-08 23:13:43
+user17,external@partner.com,Subject_4653,True,3.25,2025-11-08 21:53:43
+user12,manager@company.com,Subject_1351,False,0.0,2025-11-08 20:33:43
+user7,external@partner.com,Subject_3277,False,0.0,2025-11-08 19:00:43
+user12,colleague@company.com,Subject_1426,False,0.0,2025-11-08 18:05:43
+user5,personal@gmail.com,Subject_5089,True,2.58,2025-11-08 17:57:43
+user8,colleague@company.com,Subject_8686,False,0.0,2025-11-08 15:34:43
+user18,colleague@company.com,Subject_7087,False,0.0,2025-11-08 15:24:43
+user3,colleague@company.com,Subject_7462,False,0.0,2025-11-08 15:04:43
+user4,colleague@company.com,Subject_8646,True,12.62,2025-11-08 14:47:43
+user4,colleague@company.com,Subject_4789,False,0.0,2025-11-08 13:57:43
+user20,colleague@company.com,Subject_3785,False,0.0,2025-11-08 13:47:43
+user5,manager@company.com,Subject_1749,True,11.31,2025-11-08 10:44:43
+user11,manager@company.com,Subject_7999,True,18.19,2025-11-08 10:08:43
+user5,external@partner.com,Subject_6631,True,17.88,2025-11-08 08:52:43
+user16,colleague@company.com,Subject_3788,True,4.02,2025-11-08 08:09:43
+user16,manager@company.com,Subject_2887,False,0.0,2025-11-08 07:46:43
+user20,colleague@company.com,Subject_2696,False,0.0,2025-11-08 06:51:43
+user6,colleague@company.com,Subject_4468,False,0.0,2025-11-08 06:39:43
+user20,manager@company.com,Subject_6616,True,2.11,2025-11-08 06:24:43
+user3,colleague@company.com,Subject_5828,False,0.0,2025-11-08 05:08:43
+user7,personal@gmail.com,Subject_7569,False,0.0,2025-11-08 03:10:43
+user6,manager@company.com,Subject_8072,False,0.0,2025-11-08 02:34:43
+user13,external@partner.com,Subject_9366,False,0.0,2025-11-08 02:13:43
+user20,external@partner.com,Subject_8144,True,12.6,2025-11-08 02:05:43
+user4,personal@gmail.com,Subject_1779,False,0.0,2025-11-08 01:47:43
+user13,external@partner.com,Subject_8469,False,0.0,2025-11-08 01:46:43
+user5,personal@gmail.com,Subject_3707,False,0.0,2025-11-08 01:32:43
+user19,colleague@company.com,Subject_9282,True,12.69,2025-11-08 01:21:43
+user13,manager@company.com,Subject_1812,False,0.0,2025-11-08 00:55:43
+user17,manager@company.com,Subject_8268,False,0.0,2025-11-08 00:53:43
+user13,colleague@company.com,Subject_5018,False,0.0,2025-11-08 00:08:43
+user7,external@partner.com,Subject_4990,True,10.72,2025-11-07 23:12:43
+user13,manager@company.com,Subject_2790,True,15.93,2025-11-07 22:30:43
+user10,manager@company.com,Subject_3867,False,0.0,2025-11-07 22:15:43
+user20,colleague@company.com,Subject_8654,False,0.0,2025-11-07 21:27:43
+user4,personal@gmail.com,Subject_3005,False,0.0,2025-11-07 20:08:43
+user5,colleague@company.com,Subject_5248,True,2.7,2025-11-07 19:58:43
+user20,colleague@company.com,Subject_3266,False,0.0,2025-11-07 19:16:43
+user14,manager@company.com,Subject_6667,False,0.0,2025-11-07 19:11:43
+user12,colleague@company.com,Subject_5088,True,14.63,2025-11-07 18:37:43
+user20,personal@gmail.com,Subject_6203,False,0.0,2025-11-07 17:50:43
+user16,manager@company.com,Subject_2106,False,0.0,2025-11-07 15:46:43
+user20,manager@company.com,Subject_2016,False,0.0,2025-11-07 15:33:43
+user16,manager@company.com,Subject_9753,False,0.0,2025-11-07 14:51:43
+user17,manager@company.com,Subject_7608,False,0.0,2025-11-07 13:30:43
+user16,manager@company.com,Subject_3805,True,7.1,2025-11-07 13:24:43
+user12,manager@company.com,Subject_1273,True,5.89,2025-11-07 13:05:43
+user20,personal@gmail.com,Subject_8599,True,14.23,2025-11-07 11:10:43
+user14,colleague@company.com,Subject_2334,True,4.53,2025-11-07 09:33:43
+user3,personal@gmail.com,Subject_9972,False,0.0,2025-11-07 08:30:43
+user5,manager@company.com,Subject_1356,False,0.0,2025-11-07 05:09:43
+user13,manager@company.com,Subject_8406,False,0.0,2025-11-07 04:51:43
+user3,manager@company.com,Subject_2102,False,0.0,2025-11-07 04:10:43
+user13,colleague@company.com,Subject_2596,False,0.0,2025-11-07 03:56:43
+user16,manager@company.com,Subject_8367,False,0.0,2025-11-07 03:25:43
+user4,colleague@company.com,Subject_2330,False,0.0,2025-11-07 03:02:43
+user20,external@partner.com,Subject_5349,False,0.0,2025-11-07 01:30:43
+user16,manager@company.com,Subject_5106,True,9.23,2025-11-07 01:26:43
+user16,personal@gmail.com,Subject_8897,False,0.0,2025-11-07 00:55:43
+user6,external@partner.com,Subject_3674,True,14.53,2025-11-07 00:39:43
+user7,personal@gmail.com,Subject_4153,False,0.0,2025-11-06 21:44:43
+user4,manager@company.com,Subject_4982,False,0.0,2025-11-06 20:36:43
+user6,colleague@company.com,Subject_4988,False,0.0,2025-11-06 18:15:43
+user17,manager@company.com,Subject_1949,False,0.0,2025-11-06 17:36:43
+user12,personal@gmail.com,Subject_2028,False,0.0,2025-11-06 15:30:43
+user20,manager@company.com,Subject_7865,False,0.0,2025-11-06 15:13:43
+user6,colleague@company.com,Subject_2654,False,0.0,2025-11-06 12:01:43
+user20,external@partner.com,Subject_3611,True,11.49,2025-11-06 11:20:43
+user5,colleague@company.com,Subject_3107,False,0.0,2025-11-06 10:52:43
+user8,colleague@company.com,Subject_3408,False,0.0,2025-11-06 08:51:43
+user6,personal@gmail.com,Subject_8378,False,0.0,2025-11-06 06:54:43
+user12,colleague@company.com,Subject_4268,False,0.0,2025-11-06 06:37:43
+user20,personal@gmail.com,Subject_3692,True,13.34,2025-11-06 06:36:43
+user13,personal@gmail.com,Subject_8322,False,0.0,2025-11-06 05:45:43
+user9,colleague@company.com,Subject_2059,False,0.0,2025-11-06 04:36:43
+user12,colleague@company.com,Subject_2127,False,0.0,2025-11-06 03:30:43
+user18,colleague@company.com,Subject_2914,False,0.0,2025-11-06 03:20:43
+user1,colleague@company.com,Subject_3394,False,0.0,2025-11-06 03:12:43
+user19,colleague@company.com,Subject_4229,False,0.0,2025-11-06 02:40:43
+user17,manager@company.com,Subject_3536,False,0.0,2025-11-06 01:50:43
+user13,personal@gmail.com,Subject_2453,True,2.46,2025-11-06 01:39:43
+user9,colleague@company.com,Subject_4356,False,0.0,2025-11-06 01:33:43
+user3,external@partner.com,Subject_9655,True,7.04,2025-11-06 01:26:43
+user17,personal@gmail.com,Subject_7683,True,1.99,2025-11-06 00:42:43
+user20,personal@gmail.com,Subject_4730,False,0.0,2025-11-05 22:51:43
+user20,personal@gmail.com,Subject_2622,True,9.09,2025-11-05 22:40:43
+user15,external@partner.com,Subject_9532,False,0.0,2025-11-05 22:38:43
+user13,manager@company.com,Subject_5961,False,0.0,2025-11-05 22:26:43
+user13,manager@company.com,Subject_6395,False,0.0,2025-11-05 22:02:43
+user17,external@partner.com,Subject_3970,False,0.0,2025-11-05 21:12:43
+user8,colleague@company.com,Subject_8519,False,0.0,2025-11-05 19:29:43
+user20,external@partner.com,Subject_8617,False,0.0,2025-11-05 18:57:43
+user19,colleague@company.com,Subject_3835,False,0.0,2025-11-05 18:26:43
+user7,external@partner.com,Subject_7026,False,0.0,2025-11-05 17:39:43
+user11,external@partner.com,Subject_4073,False,0.0,2025-11-05 16:38:43
+user20,colleague@company.com,Subject_9995,False,0.0,2025-11-05 14:18:43
+user20,manager@company.com,Subject_9996,False,0.0,2025-11-05 14:11:43
+user8,colleague@company.com,Subject_4120,True,18.45,2025-11-05 13:19:43
+user14,personal@gmail.com,Subject_3401,True,15.15,2025-11-05 13:03:43
+user17,colleague@company.com,Subject_5378,False,0.0,2025-11-05 11:11:43
+user17,manager@company.com,Subject_3349,False,0.0,2025-11-05 11:03:43
+user5,personal@gmail.com,Subject_8468,False,0.0,2025-11-05 09:36:43
+user5,manager@company.com,Subject_4766,False,0.0,2025-11-05 08:42:43
+user18,colleague@company.com,Subject_6931,False,0.0,2025-11-05 06:40:43
+user1,colleague@company.com,Subject_3238,False,0.0,2025-11-05 03:12:43
+user11,manager@company.com,Subject_6130,True,10.85,2025-11-05 01:43:43
+user13,external@partner.com,Subject_4998,False,0.0,2025-11-05 00:50:43
+user19,personal@gmail.com,Subject_1846,False,0.0,2025-11-04 23:56:43
+user16,manager@company.com,Subject_2634,False,0.0,2025-11-04 22:14:43
+user13,external@partner.com,Subject_5901,True,6.26,2025-11-04 22:04:43
+user13,colleague@company.com,Subject_9760,False,0.0,2025-11-04 21:59:43
+user6,manager@company.com,Subject_9791,False,0.0,2025-11-04 20:22:43
+user7,personal@gmail.com,Subject_9306,False,0.0,2025-11-04 19:39:43
+user20,colleague@company.com,Subject_8832,False,0.0,2025-11-04 19:29:43
+user10,personal@gmail.com,Subject_8209,False,0.0,2025-11-04 16:41:43
+user15,colleague@company.com,Subject_5008,True,19.23,2025-11-04 15:57:43
+user11,colleague@company.com,Subject_8909,False,0.0,2025-11-04 15:25:43
+user8,manager@company.com,Subject_1941,False,0.0,2025-11-04 15:17:43
+user7,personal@gmail.com,Subject_5949,True,6.67,2025-11-04 15:00:43
+user13,personal@gmail.com,Subject_7145,True,3.45,2025-11-04 14:50:43
+user20,colleague@company.com,Subject_7751,False,0.0,2025-11-04 13:06:43
+user1,manager@company.com,Subject_8084,True,10.34,2025-11-04 11:19:43
+user3,colleague@company.com,Subject_3660,False,0.0,2025-11-04 10:38:43
+user16,colleague@company.com,Subject_3931,True,17.65,2025-11-04 09:37:43
+user20,manager@company.com,Subject_2931,False,0.0,2025-11-04 09:28:43
+user7,personal@gmail.com,Subject_9870,False,0.0,2025-11-04 04:45:43
+user20,manager@company.com,Subject_9118,False,0.0,2025-11-04 04:33:43
+user15,manager@company.com,Subject_9006,False,0.0,2025-11-04 03:57:43
+user13,external@partner.com,Subject_9613,False,0.0,2025-11-04 03:41:43
+user13,manager@company.com,Subject_9212,False,0.0,2025-11-04 02:05:43
+user12,manager@company.com,Subject_3381,False,0.0,2025-11-04 01:23:43
+user17,manager@company.com,Subject_7841,False,0.0,2025-11-04 00:10:43
+user2,manager@company.com,Subject_6851,False,0.0,2025-11-03 23:10:43

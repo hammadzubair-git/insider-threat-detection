@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Dashboard - Insider Threat Detection</title>
+    <link rel="stylesheet" href="/dashboard/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="login-page" class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <svg class="shield-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h1>SOC Dashboard</h1>
+                <p>Insider Threat Detection System</p>
+            </div>
+            
+            <!-- Login Form -->
+            <div id="login-form" class="login-form">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="username" placeholder="Enter username" autocomplete="username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Enter password" autocomplete="current-password">
+                </div>
+                <div id="login-error" class="error-message" style="display: none;"></div>
+                <button id="login-btn" class="login-button">Login</button>
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="#" id="show-signup">Sign Up</a></p>
+                </div>
+                <div class="demo-credentials">
+                    <strong>Demo:</strong> admin / admin123 | john_doe / user123
+                </div>
+            </div>
+            
+            <!-- Signup Form -->
+            <div id="signup-form" class="login-form" style="display: none;">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="signup-username" placeholder="Choose username" autocomplete="username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="signup-password" placeholder="Choose password" autocomplete="new-password">
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="signup-confirm" placeholder="Confirm password" autocomplete="new-password">
+                </div>
+                <div class="form-group">
+                    <label>Role</label>
+                    <select id="signup-role">
+                        <option value="user">User</option>
+                        <option value="analyst">Analyst</option>
+                    </select>
+                </div>
+                <div id="signup-error" class="error-message" style="display: none;"></div>
+                <div id="signup-success" class="success-message" style="display: none;"></div>
+                <button id="signup-btn" class="login-button">Sign Up</button>
+                <div class="form-footer">
+                    <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="dashboard-container" style="display: none;">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <svg class="shield-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <div>
+                    <h2>SOC Dashboard</h2>
+                    <p>Threat Detection</p>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-page="dashboard">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                    <span>Dashboard</span>
+                </button>
+                
+                <!-- USER ONLY PAGES -->
+                <button class="nav-item" data-page="my-activity" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                    <span>My Activity</span>
+                </button>
+                <button class="nav-item" data-page="my-security" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <span>My Security</span>
+                </button>
+                <button class="nav-item" data-page="profile" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>Profile & Settings</span>
+                </button>
+                
+                <!-- ADMIN ONLY PAGES -->
+                <button class="nav-item" data-page="alerts" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                    <span>Alerts</span>
+                </button>
+                <button class="nav-item" data-page="activity" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                    <span>Activity Logs</span>
+                </button>
+                <button class="nav-item" data-page="security" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    <span>Security Logs</span>
+                </button>
+                
+                <!-- NLP MONITORING PAGE (ADMIN ONLY) -->
+                <button class="nav-item" data-page="monitoring" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span>🔍 NLP Monitoring</span>
+                </button>
+                
+                <!-- BEHAVIORAL MONITORING PAGE (ADMIN ONLY) -->
+                <button class="nav-item" data-page="behavioral" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2v20M2 12h20"></path>
+                        <circle cx="12" cy="12" r="10"></circle>
+                    </svg>
+                    <span>🧠 Behavioral Analysis</span>
+                </button>
+                
+                <!-- REPORTS PAGE (ADMIN ONLY) - NEW -->
+                <button class="nav-item" data-page="reports" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                    </svg>
+                    <span>📄 Reports</span>
+                </button>
+                
+                <button class="nav-item" data-page="users" id="admin-users-nav" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 010 7.75"></path>
+                    </svg>
+                    <span>User Management</span>
+                </button>
+                <button class="nav-item" data-page="settings" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M12 1v6m0 6v6m-9-9h6m6 0h6"></path>
+                    </svg>
+                    <span>Settings</span>
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <div>
+                        <p id="user-name">User</p>
+                        <p class="user-role" id="user-role">Viewer</p>
+                    </div>
+                </div>
+                <button id="logout-btn" class="logout-button">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    <span>Logout</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="content-header">
+                <div>
+                    <h1 id="page-title">Dashboard Overview</h1>
+                    <p id="page-subtitle">Real-time monitoring and threat detection</p>
+                </div>
+                <div class="header-right">
+                    <div class="live-indicator">
+                        <span class="live-dot"></span>
+                        <span>Live</span>
+                    </div>
+                    <div id="current-time" class="current-time"></div>
+                </div>
+            </div>
+
+            <!-- Dashboard Overview Page -->
+            <div id="page-dashboard" class="page-content active">
+                <!-- User Dashboard View -->
+                <div id="user-dashboard-view">
+                    <div style="display: flex; justify-content: center; align-items: center; min-height: 60vh;">
+                        <div style="text-align: center; max-width: 800px; padding: 40px; width: 100%;">
+                            <div style="margin-bottom: 30px;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                                     style="width: 80px; height: 80px; margin: 0 auto; color: var(--primary-color);">
+                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <h1 id="welcome-title" style="font-size: 32px; color: var(--text-primary); margin-bottom: 16px;">
+                                Welcome, User!
+                            </h1>
+                            <p style="font-size: 18px; color: var(--text-secondary); margin-bottom: 24px;">
+                                You have successfully logged in to the system.
+                            </p>
+                            
+                            <!-- FILE ACCESS SIMULATOR -->
+                            <div style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 24px; margin-top: 30px; text-align: left;">
+                                <h3 style="margin-top: 0; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
+                                    <span>📁</span> File Access
+                                </h3>
+                                <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 20px;">
+                                    Access files from the system (Demo):
+                                </p>
+                                
+                                <div style="display: grid; gap: 12px;">
+                                    <!-- Normal files -->
+                                    <button class="file-access-btn" onclick="accessFile('/documents/report.pdf')">
+                                        <span style="font-size: 20px;">📄</span>
+                                        <span>/documents/report.pdf</span>
+                                    </button>
+                                    
+                                    <button class="file-access-btn" onclick="accessFile('/projects/code.py')">
+                                        <span style="font-size: 20px;">💻</span>
+                                        <span>/projects/code.py</span>
+                                    </button>
+                                    
+                                    <button class="file-access-btn" onclick="accessFile('/images/photo.jpg')">
+                                        <span style="font-size: 20px;">🖼️</span>
+                                        <span>/images/photo.jpg</span>
+                                    </button>
+                                    
+                                    <!-- Sensitive files -->
+                                    <button class="file-access-btn sensitive-file" onclick="accessFile('/credentials/passwords.txt')">
+                                        <span style="font-size: 20px;">🔐</span>
+                                        <span>/credentials/passwords.txt</span>
+                                        <span style="margin-left: auto; color: #f44336; font-weight: 600;">⚠️ Sensitive</span>
+                                    </button>
+                                    
+                                    <button class="file-access-btn sensitive-file" onclick="accessFile('/confidential/salaries.xlsx')">
+                                        <span style="font-size: 20px;">💰</span>
+                                        <span>/confidential/salaries.xlsx</span>
+                                        <span style="margin-left: auto; color: #f44336; font-weight: 600;">⚠️ Sensitive</span>
+                                    </button>
+                                    
+                                    <button class="file-access-btn sensitive-file" onclick="accessFile('/admin/system_config.ini')">
+                                        <span style="font-size: 20px;">⚙️</span>
+                                        <span>/admin/system_config.ini</span>
+                                        <span style="margin-left: auto; color: #f44336; font-weight: 600;">⚠️ Sensitive</span>
+                                    </button>
+                                </div>
+                                
+                                <div id="file-access-message" style="margin-top: 16px; padding: 12px; border-radius: 6px; display: none;"></div>
+                            </div>
+                            
+                            <div style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 20px; margin-top: 20px;">
+                                <p style="margin: 0; color: var(--text-secondary);">
+                                    <strong>Session Active</strong>
+                                </p>
+                                <p style="margin: 8px 0 0 0; font-size: 14px; color: var(--text-secondary);">
+                                    Your session is being monitored for security purposes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Admin Dashboard View -->
+                <div id="admin-dashboard-view" style="display: none;">
+                    <div class="admin-header">
+                        <h2 style="color: var(--accent-red); font-size: 24px; margin-bottom: 8px;">
+                            🔴 ADMIN REAL-TIME MONITORING
+                        </h2>
+                        <p style="color: var(--text-secondary);">Live user activity tracking and threat detection</p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                </svg>
+                                <span id="admin-total-users" class="stat-value">0</span>
+                            </div>
+                            <p class="stat-label">Total Users</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span id="admin-active-sessions" class="stat-value">0</span>
+                            </div>
+                            <p class="stat-label">Active Sessions</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"></path>
+                                </svg>
+                                <span id="admin-threats" class="stat-value">0</span>
+                            </div>
+                            <p class="stat-label">Active Threats</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                </svg>
+                                <span id="admin-events-today" class="stat-value">0</span>
+                            </div>
+                            <p class="stat-label">Events Today</p>
+                        </div>
+                    </div>
+
+                    <div class="table-card" style="margin-bottom: 24px;">
+                        <div style="padding: 20px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <h3 style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="width: 8px; height: 8px; background: var(--accent-red); border-radius: 50%; animation: pulse 2s infinite;"></span>
+                                    Live Activity Feed
+                                </h3>
+                                <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">Real-time user actions and system events</p>
+                            </div>
+                            <button id="pause-feed" class="save-button">Pause Feed</button>
+                        </div>
+                        <div id="live-feed" style="max-height: 400px; overflow-y: auto;"></div>
+                    </div>
+
+                    <div class="table-card">
+                        <h3 style="padding: 20px; border-bottom: 1px solid var(--border-color); color: var(--accent-red);">⚠️ Critical Alerts</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>User</th>
+                                    <th>Alert Type</th>
+                                    <th>Severity</th>
+                                    <th>Time</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-alerts-table"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My Activity Page (User Only) -->
+            <div id="page-my-activity" class="page-content">
+                <div class="table-card">
+                    <div class="card-header-with-icon">
+                        <h3>📊 My Activity History</h3>
+                        <p class="section-subtitle">Complete log of your actions in the system</p>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Action</th>
+                                <th>Resource/Details</th>
+                                <th>Timestamp</th>
+                                <th>Device/IP</th>
+                            </tr>
+                        </thead>
+                        <tbody id="my-activity-table"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- My Security Page (User Only) -->
+            <div id="page-my-security" class="page-content">
+                <div class="security-status-card">
+                    <div class="status-icon" id="security-status-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <polyline points="9 12 11 14 15 10"></polyline>
+                        </svg>
+                    </div>
+                    <h2 id="security-status-title">Account Security: Good</h2>
+                    <p id="security-status-description">Your account is secure. Keep following best practices.</p>
+                </div>
+
+                <div class="table-card">
+                    <div class="card-header-with-icon">
+                        <h3>💡 Security Recommendations</h3>
+                    </div>
+                    <div id="security-recommendations"></div>
+                </div>
+
+                <div class="table-card">
+                    <div class="card-header-with-icon">
+                        <h3>🔔 Security Notifications</h3>
+                    </div>
+                    <div id="security-notifications"></div>
+                </div>
+            </div>
+
+            <!-- Profile & Settings Page (User Only) -->
+            <div id="page-profile" class="page-content">
+                <div class="settings-container">
+                    <div class="settings-card">
+                        <h3>👤 Profile Information</h3>
+                        <div class="profile-info">
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input type="text" id="profile-username" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label>Role</label>
+                                <input type="text" id="profile-role" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label>Account Status</label>
+                                <input type="text" value="Active" readonly>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="settings-card">
+                        <h3>🔒 Change Password</h3>
+                        <div class="form-group">
+                            <label>Current Password</label>
+                            <input type="password" id="current-password" placeholder="Enter current password">
+                        </div>
+                        <div class="form-group">
+                            <label>New Password</label>
+                            <input type="password" id="new-password" placeholder="Enter new password">
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm New Password</label>
+                            <input type="password" id="confirm-password" placeholder="Confirm new password">
+                        </div>
+                        <div id="password-change-message" style="display: none; margin-bottom: 16px;"></div>
+                        <button id="change-password-btn" class="save-button">Update Password</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alerts Page (Admin Only) -->
+            <div id="page-alerts" class="page-content">
+                <div class="table-card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Alert Type</th>
+                                <th>Score</th>
+                                <th>Timestamp</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="alerts-table"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Activity Logs Page (Admin Only) -->
+            <div id="page-activity" class="page-content">
+                <div class="table-card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Action</th>
+                                <th>Resource</th>
+                                <th>Timestamp</th>
+                            </tr>
+                        </thead>
+                        <tbody id="activity-table"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Security Logs Page (Admin Only) -->
+            <div id="page-security" class="page-content">
+                <div class="table-card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Event</th>
+                                <th>Severity</th>
+                                <th>Timestamp</th>
+                            </tr>
+                        </thead>
+                        <tbody id="security-table"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- NLP MONITORING PAGE (Admin Only) -->
+            <div id="page-monitoring" class="page-content">
+                <div class="monitoring-status">
+                    <h2>🔍 Threat Monitoring Status</h2>
+                    <div id="monitoring-status-display" style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 24px;">
+                        <p style="color: var(--text-secondary);">Loading status...</p>
+                    </div>
+                    <button onclick="refreshMonitoringStatus()" class="save-button">Refresh Status</button>
+                </div>
+
+                <div class="log-analyzer" style="margin-top: 32px;">
+                    <h3>📝 Analyze Log Entry</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 16px;">Enter a system log to analyze for suspicious activity</p>
+                    <textarea id="log-input" rows="4" style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 6px; font-family: monospace; font-size: 14px;" 
+                              placeholder="Example: Failed login attempt for user admin from 192.168.1.99"></textarea>
+                    <button onclick="analyzeLog()" class="save-button" style="margin-top: 12px;">Analyze Log</button>
+                    <div id="analysis-result" style="margin-top: 20px;"></div>
+                </div>
+
+                <div class="manual-checks" style="margin-top: 32px;">
+                    <h3>🔍 Manual Security Checks</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 16px;">Run immediate checks on system data</p>
+                    <div style="display: flex; gap: 12px;">
+                        <button onclick="checkAfterHours()" class="save-button">Check After-Hours Logins</button>
+                        <button onclick="checkHighRiskUsers()" class="save-button">Check High-Risk Users</button>
+                    </div>
+                    <div id="check-results" style="margin-top: 20px;"></div>
+                </div>
+            </div>
+
+            <!-- BEHAVIORAL MONITORING PAGE (Admin Only) -->
+            <div id="page-behavioral" class="page-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"></path>
+                            </svg>
+                            <span id="behavioral-total-alerts" class="stat-value">0</span>
+                        </div>
+                        <p class="stat-label">Total Alerts</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            <span id="behavioral-critical-alerts" class="stat-value">0</span>
+                        </div>
+                        <p class="stat-label">Critical</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"></path>
+                            </svg>
+                            <span id="behavioral-high-alerts" class="stat-value">0</span>
+                        </div>
+                        <p class="stat-label">High Priority</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                            </svg>
+                            <span id="behavioral-users-flagged" class="stat-value">0</span>
+                        </div>
+                        <p class="stat-label">Users Flagged</p>
+                    </div>
+                </div>
+
+                <!-- Feature Tables -->
+                <div class="table-card" style="margin-bottom: 24px;">
+                    <div style="padding: 20px; border-bottom: 1px solid var(--border-color);">
+                        <h3>⏰ Feature 1: After-Hours Login Detection</h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">
+                            Logins outside configured office hours or on weekends
+                        </p>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Alert Type</th>
+                                <th>Reason</th>
+                                <th>Timestamp</th>
+                                <th>Severity</th>
+                            </tr>
+                        </thead>
+                        <tbody id="behavioral-after-hours-table"></tbody>
+                    </table>
+                </div>
+
+                <div class="table-card" style="margin-bottom: 24px;">
+                    <div style="padding: 20px; border-bottom: 1px solid var(--border-color);">
+                        <h3>📂 Feature 2: Sensitive File Access Monitoring</h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">
+                            Unauthorized or unusual access to confidential files
+                        </p>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Alert Type</th>
+                                <th>Reason</th>
+                                <th>Timestamp</th>
+                                <th>Severity</th>
+                            </tr>
+                        </thead>
+                        <tbody id="behavioral-sensitive-files-table"></tbody>
+                    </table>
+                </div>
+
+                <div class="table-card" style="margin-bottom: 24px;">
+                    <div style="padding: 20px; border-bottom: 1px solid var(--border-color);">
+                        <h3>🔐 Feature 3: Abnormal Login Behavior Detection</h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">
+                            Failed attempts, new IPs, suspicious locations
+                        </p>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Alert Type</th>
+                                <th>Reason</th>
+                                <th>Timestamp</th>
+                                <th>Severity</th>
+                            </tr>
+                        </thead>
+                        <tbody id="behavioral-abnormal-logins-table"></tbody>
+                    </table>
+                </div>
+
+                <div class="table-card" style="margin-bottom: 24px;">
+                    <div style="padding: 20px; border-bottom: 1px solid var(--border-color);">
+                        <h3>📊 Feature 4: Unusual User Activity Detection</h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">
+                            Excessive downloads, bulk copying, rapid file access
+                        </p>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Alert Type</th>
+                                <th>Reason</th>
+                                <th>Timestamp</th>
+                                <th>Severity</th>
+                            </tr>
+                        </thead>
+                        <tbody id="behavioral-unusual-activity-table"></tbody>
+                    </table>
+                </div>
+
+                <div class="table-card">
+                    <div style="padding: 20px; border-bottom: 1px solid var(--border-color);">
+                        <h3>🤖 Feature 5: ML-Based Behavioral Anomaly Detection</h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">
+                            Machine learning analysis of user behavior patterns
+                        </p>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Alert Type</th>
+                                <th>Reason</th>
+                                <th>Timestamp</th>
+                                <th>Severity</th>
+                            </tr>
+                        </thead>
+                        <tbody id="behavioral-ml-anomalies-table"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- =============================================== -->
+            <!-- REPORTS PAGE (ADMIN ONLY) - NEW -->
+            <!-- =============================================== -->
+            <div id="page-reports" class="page-content">
+                <div class="reports-header">
+                    <h2>📄 Generate User Reports</h2>
+                    <p style="color: var(--text-secondary); margin-top: 8px;">
+                        Create comprehensive PDF reports including user activity, anomaly scores, and NLP chat analysis
+                    </p>
+                </div>
+
+                <div class="report-generator-card">
+                    <h3>Report Configuration</h3>
+                    
+                    <div class="form-group">
+                        <label for="report-user-select">👤 Select User</label>
+                        <select id="report-user-select" class="form-group select">
+                            <option value="">-- Select a user --</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="report-period-select">📅 Time Period</label>
+                        <select id="report-period-select" class="form-group select">
+                            <option value="7">Last 7 Days</option>
+                            <option value="30" selected>Last 30 Days</option>
+                            <option value="90">Last 90 Days</option>
+                        </select>
+                    </div>
+                    
+                    <div class="report-includes">
+                        <h4>📋 Report Includes:</h4>
+                        <ul>
+                            <li>✅ User's anomaly score and risk level</li>
+                            <li>✅ Login history (dates, times, IPs)</li>
+                            <li>✅ Total logins, failed logins, after-hours logins</li>
+                            <li>✅ File access history</li>
+                            <li>✅ All chat messages sent by user</li>
+                            <li>✅ Suspicious messages flagged by NLP</li>
+                            <li>✅ Risk scores and threat categories</li>
+                            <li>✅ Security recommendations</li>
+                        </ul>
+                    </div>
+                    
+                    <button id="generate-report-btn" class="save-button" style="width: 100%; padding: 14px; font-size: 16px;">
+                        📥 Generate PDF Report
+                    </button>
+                    
+                    <div id="report-status" class="report-status" style="display: none; margin-top: 20px;"></div>
+                </div>
+            </div>
+
+            <!-- User Management Page (Admin Only) -->
+            <div id="page-users" class="page-content">
+                <div class="table-card">
+                    <div style="padding: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);">
+                        <h3>Registered Users</h3>
+                        <button id="refresh-users" class="save-button">Refresh</button>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Role</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="users-table"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Settings Page (Admin Only) -->
+            <div id="page-settings" class="page-content">
+                <div class="settings-container">
+                    <div class="settings-card">
+                        <h3>Detection Settings</h3>
+                        <div class="setting-item">
+                            <label>Anomaly Threshold</label>
+                            <input type="range" id="threshold-slider" min="0" max="1" step="0.1" value="0.7">
+                            <span id="threshold-value">0.7</span>
+                        </div>
+                        <div class="setting-item">
+                            <label>
+                                <input type="checkbox" id="auto-refresh" checked>
+                                Enable Auto-Refresh
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label>Refresh Interval (seconds)</label>
+                            <input type="number" id="refresh-interval" min="1" max="60" value="5">
+                        </div>
+                        <button id="save-settings" class="save-button">Save Settings</button>
+                    </div>
+                    
+                    <div class="settings-card">
+                        <h3>System Information</h3>
+                        <div class="system-info">
+                            <p><strong>Dashboard Version:</strong> 3.0.0 (with Behavioral Monitoring + Chat)</p>
+                            <p><strong>ML Models:</strong> <span id="models-loaded">Loading...</span></p>
+                            <p><strong>Data Files:</strong> <span id="data-loaded">Loading...</span></p>
+                            <p><strong>Last Update:</strong> <span id="last-update">-</span></p>
+                        </div>
+                        <button id="reload-data" class="reload-button">Reload Data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================================== -->
+    <!-- CHAT SYSTEM (Floating Button & Window) -->
+    <!-- =============================================== -->
+    
+    <button id="chatToggleBtn" class="chat-toggle-btn" title="Open Chat" style="display: none;">
+        💬 <span class="chat-badge" id="chatBadge" style="display: none;">0</span>
+    </button>
+
+    <div id="chatWindow" class="chat-window" style="display: none;">
+        <div class="chat-header">
+            <h3>💬 Team Chat</h3>
+            <div class="chat-header-buttons">
+                <button id="chatClearBtn" class="chat-clear-btn" title="Clear History (Admin Only)">🗑️</button>
+                <button id="chatCloseBtn" class="chat-close-btn">✖</button>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Messages will be added here dynamically -->
+        </div>
+        
+        <div class="chat-input-area">
+            <input 
+                type="text" 
+                id="chatInput" 
+                class="chat-input" 
+                placeholder="Type a message..." 
+                maxlength="1000"
+            />
+            <button id="chatSendBtn" class="chat-send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="/dashboard/app.js"></script>
+</body>
+</html>
